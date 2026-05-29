@@ -7,6 +7,7 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230d3320'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='28' font-weight='700' fill='%2352c77a' text-anchor='middle'%3EBC%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
   <style>
     :root {
       --floresta: #0a2416; --mata: #12391f; --igapo: #1d5c32;
@@ -303,8 +304,11 @@ async function loadCombo(estado, cadeia) {
 }
 
 // ── Renderiza mapa ─────────────────────────────────────────────────────────────
+let aplContourLayer = null;
+
 function renderMap() {
   if (geojsonLayer) map.removeLayer(geojsonLayer);
+  if (aplContourLayer) { map.removeLayer(aplContourLayer); aplContourLayer = null; }
 
   // Mapa APL: nome_municipio → {apl_label, cor, idri}
   const aplMap = {};
@@ -314,15 +318,16 @@ function renderMap() {
     aplMap[norm(mun)] = { ...info, cor: aplCores[info.apl_label] || '#aaa' };
   });
 
+  // Camada coroplética — bordas internas finas
   geojsonLayer = L.geoJSON(currentGeo, {
     style: feature => {
       const info = aplMap[norm(feature.properties.nome)];
-      if (!info) return { fillColor: '#c8c8c8', fillOpacity: 0.3, color: '#555', weight: 0.6 };
+      if (!info) return { fillColor: '#c8c8c8', fillOpacity: 0.3, color: '#bbb', weight: 0.4 };
       return {
         fillColor: info.cor,
         fillOpacity: fillOpacity(info.idri),
-        color: '#111',
-        weight: 1.8,
+        color: '#aaa',
+        weight: 0.4,
       };
     },
     onEachFeature: (feature, layer) => {
@@ -330,7 +335,7 @@ function renderMap() {
       const info = aplMap[norm(nome)];
       layer.on({
         mouseover: e => {
-          e.target.setStyle({ weight: 2, color: '#1B4332' });
+          e.target.setStyle({ weight: 1.5, color: '#0a2416' });
           showTooltip(nome, info);
         },
         mouseout: e => {
@@ -342,6 +347,35 @@ function renderMap() {
         },
       });
     },
+  }).addTo(map);
+
+  // Camada de contornos por APL (dissolve via Turf.js)
+  const featuresPorApl = {};
+  currentGeo.features.forEach(f => {
+    const info = aplMap[norm(f.properties.nome)];
+    if (!info) return;
+    const label = info.apl_label;
+    if (!featuresPorApl[label]) featuresPorApl[label] = [];
+    featuresPorApl[label].push(f);
+  });
+
+  const contornos = [];
+  Object.entries(featuresPorApl).forEach(([label, features]) => {
+    try {
+      const fc = turf.featureCollection(features);
+      const dissolved = turf.dissolve(fc);
+      dissolved.features.forEach(f => {
+        f.properties = { apl_label: label };
+        contornos.push(f);
+      });
+    } catch (e) {
+      console.warn('dissolve falhou para', label, e);
+    }
+  });
+
+  aplContourLayer = L.geoJSON(turf.featureCollection(contornos), {
+    style: { fillOpacity: 0, color: '#111', weight: 2.8, dashArray: null },
+    interactive: false,
   }).addTo(map);
 
   map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
