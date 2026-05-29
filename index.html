@@ -102,6 +102,19 @@
     .legend-cinza { display: flex; align-items: center; gap: 10px; padding: 8px 16px; }
     .legend-cinza .legend-text { font-size: 11px; color: #888; }
 
+    /* ── Marcador Polo ── */
+    .polo-label {
+      background: #111; color: #fff;
+      font-family: var(--font-mono); font-size: 9px; letter-spacing: .5px;
+      padding: 3px 7px; border-radius: 4px; white-space: nowrap;
+      box-shadow: 0 1px 4px rgba(0,0,0,.35);
+      pointer-events: none;
+    }
+    .polo-label::before {
+      content: '★ ';
+      color: #ffd700;
+    }
+
     /* ── Tabela de municípios do APL selecionado ── */
     #apl-table-wrap { border-top: 1px solid var(--border); display: none; }
     #apl-table-header { padding: 10px 16px 6px; display: flex; justify-content: space-between; align-items: center; }
@@ -314,6 +327,7 @@ let currentGeo = null;
 let selectedApl = null;
 let currentAplMap = {};
 let viewMode = 'apl';   // 'apl' | 'heat'
+let poloMarkers = [];   // marcadores de polo no mapa
 
 const BASE = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
   ? '.'
@@ -391,6 +405,38 @@ async function loadCombo(estado, cadeia) {
     if (geojsonLayer) { map.removeLayer(geojsonLayer); geojsonLayer = null; }
     clearPanel();
   }
+}
+
+// ── Marcadores Polo ───────────────────────────────────────────────────────────
+function clearPolos() {
+  poloMarkers.forEach(m => map.removeLayer(m));
+  poloMarkers = [];
+}
+
+/**
+ * polos: Array de { nome, idri }
+ * Modo APL → um polo por APL (maior IDRI do arranjo)
+ * Modo Calor → um polo global (maior IDRI do estado)
+ */
+function addPolos(polos) {
+  clearPolos();
+  // Índice feature pelo nome normalizado
+  const featIdx = {};
+  currentGeo.features.forEach(f => { featIdx[norm(f.properties.nome)] = f; });
+
+  polos.forEach(({ nome, idri }) => {
+    const feat = featIdx[norm(nome)];
+    if (!feat) return;
+    const centroid = turf.centroid(feat);
+    const [lng, lat] = centroid.geometry.coordinates;
+    const icon = L.divIcon({
+      className: '',
+      html: `<div class="polo-label">${nome}</div>`,
+      iconAnchor: [0, 0],
+    });
+    const marker = L.marker([lat, lng], { icon, interactive: false }).addTo(map);
+    poloMarkers.push(marker);
+  });
 }
 
 // ── Renderiza mapa ─────────────────────────────────────────────────────────────
@@ -471,6 +517,15 @@ function renderMap() {
   }).addTo(map);
 
   map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+
+  // Polo por APL: município com maior IDRI dentro de cada arranjo
+  const polosPorApl = {};
+  Object.entries(currentData.municipios).forEach(([mun, v]) => {
+    const cur = polosPorApl[v.apl_label];
+    if (!cur || v.idri > cur.idri) polosPorApl[v.apl_label] = { nome: mun, idri: v.idri };
+  });
+  addPolos(Object.values(polosPorApl));
+
   updatePanel();
 }
 
@@ -516,6 +571,12 @@ function renderHeatMap() {
     },
   }).addTo(map);
 
+  // Polo global: município com maior IDRI no estado
+  const poloGlobal = Object.entries(currentData.municipios)
+    .reduce((best, [mun, v]) => v.idri > best.idri ? { nome: mun, idri: v.idri } : best,
+            { nome: '', idri: -Infinity });
+  addPolos([poloGlobal]);
+
   // Legenda barra de calor
   document.getElementById('hl-min').textContent = minI.toFixed(2);
   document.getElementById('hl-max').textContent = maxI.toFixed(2);
@@ -533,6 +594,7 @@ document.getElementById('btn-apl').addEventListener('click', () => {
   document.getElementById('btn-apl').classList.add('active');
   document.getElementById('btn-heat').classList.remove('active');
   document.getElementById('heat-legend').style.display = 'none';
+  clearPolos();
   if (currentData && currentGeo) renderMap();
 });
 
