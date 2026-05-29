@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APLs — Amazônia Legal</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpolygon points='32,4 56,18 56,46 32,60 8,46 8,18' fill='none' stroke='%232D6A4F' stroke-width='2.5'/%3E%3Ccircle cx='32' cy='32' r='7' fill='%2352B788'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    :root {
+      --floresta: #1B4332; --mata: #2D6A4F; --igapo: #40916C;
+      --babacu: #52B788;   --buriti: #74C69D; --varzea: #D8F3DC;
+      --cerrado: #C9A84C;
+      --bg: #F7FAF8; --card: #fff; --border: #ddeee5; --border-soft: #c8e0d0;
+      --shadow: 0 1px 4px rgba(27,67,50,.08);
+      --radius: 8px;
+      --font-titulo: Georgia,'Times New Roman',serif;
+      --font-mono: 'Courier New',Courier,monospace;
+      --font-ui: system-ui,-apple-system,sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); font-family: var(--font-ui); color: #222; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+
+    /* ── Header ── */
+    .header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 12px 24px; display: flex; align-items: center; justify-content: space-between;
+      flex-shrink: 0; gap: 16px;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .brand-text { display: flex; flex-direction: column; gap: 1px; }
+    .brand-sigla { font-family: var(--font-titulo); font-size: 18px; font-weight: 700; color: var(--floresta); letter-spacing: 1px; line-height: 1; }
+    .brand-sub { font-family: var(--font-mono); font-size: 8px; letter-spacing: 2px; text-transform: uppercase; color: var(--igapo); }
+    .header-title { font-family: var(--font-titulo); font-size: 15px; color: var(--mata); font-weight: normal; }
+    .header-meta { font-family: var(--font-mono); font-size: 9px; color: var(--buriti); text-align: right; line-height: 1.8; }
+
+    /* ── Filtros ── */
+    .filters {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 10px 24px; display: flex; align-items: flex-end; gap: 20px;
+      flex-shrink: 0; flex-wrap: wrap;
+    }
+    .filter-group { display: flex; flex-direction: column; gap: 4px; }
+    .filter-label { font-family: var(--font-mono); font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--igapo); }
+    .filter-select {
+      font-family: var(--font-ui); font-size: 13px; color: var(--floresta);
+      background: var(--card); border: 1px solid var(--border-soft);
+      border-radius: 6px; padding: 6px 10px; cursor: pointer; outline: none; min-width: 180px;
+    }
+    .filter-select:focus { border-color: var(--mata); }
+    .filter-select:disabled { opacity: 0.5; cursor: not-allowed; }
+    .badge-soon {
+      font-family: var(--font-mono); font-size: 8px; letter-spacing: 1px;
+      color: var(--buriti); background: var(--varzea); border: 1px solid var(--border);
+      border-radius: 10px; padding: 1px 7px; margin-left: 6px; vertical-align: middle;
+    }
+
+    /* ── Layout principal ── */
+    .main { display: flex; flex: 1; overflow: hidden; }
+
+    /* ── Mapa ── */
+    #map { flex: 1; height: 100%; }
+
+    /* ── Painel lateral ── */
+    .panel {
+      width: 280px; background: var(--card); border-left: 1px solid var(--border);
+      display: flex; flex-direction: column; overflow: hidden; flex-shrink: 0;
+    }
+    .panel-section { padding: 16px; border-bottom: 1px solid var(--border); }
+    .panel-title { font-family: var(--font-mono); font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--igapo); margin-bottom: 10px; }
+    .panel-scroll { flex: 1; overflow-y: auto; }
+
+    /* ── Legenda APL ── */
+    .legend-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 16px; cursor: pointer; transition: background .15s; border-radius: 0; }
+    .legend-item:hover { background: var(--varzea); }
+    .legend-item.active { background: var(--varzea); }
+    .legend-dot { width: 14px; height: 14px; border-radius: 3px; flex-shrink: 0; margin-top: 2px; border: 1px solid rgba(0,0,0,.12); }
+    .legend-text { flex: 1; }
+    .legend-name { font-size: 12px; font-weight: 600; color: var(--floresta); line-height: 1.2; }
+    .legend-idri { font-family: var(--font-mono); font-size: 10px; color: var(--igapo); margin-top: 2px; }
+    .legend-count { font-size: 10px; color: var(--buriti); }
+    .legend-cinza { display: flex; align-items: center; gap: 10px; padding: 8px 16px; }
+    .legend-cinza .legend-text { font-size: 11px; color: #888; }
+
+    /* ── Tooltip municipio ── */
+    #tooltip-box {
+      padding: 12px 16px; background: var(--bg); border-bottom: 1px solid var(--border);
+      font-size: 12px; min-height: 72px;
+    }
+    #tooltip-box .tt-mun { font-family: var(--font-titulo); font-size: 15px; color: var(--floresta); margin-bottom: 4px; }
+    #tooltip-box .tt-apl { font-size: 11px; color: var(--mata); margin-bottom: 2px; }
+    #tooltip-box .tt-idri { font-family: var(--font-mono); font-size: 12px; color: var(--igapo); }
+    #tooltip-box .tt-empty { font-size: 11px; color: #aaa; font-style: italic; }
+
+    /* ── Stats ── */
+    .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 12px 16px; }
+    .stat-card { background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px; }
+    .stat-label { font-family: var(--font-mono); font-size: 8px; letter-spacing: 1px; text-transform: uppercase; color: var(--igapo); margin-bottom: 4px; }
+    .stat-val { font-family: var(--font-titulo); font-size: 20px; color: var(--floresta); }
+    .stat-sub { font-size: 9px; color: var(--buriti); margin-top: 2px; }
+
+    /* ── Footer ── */
+    .footer {
+      background: var(--card); border-top: 1px solid var(--border);
+      padding: 6px 24px; font-family: var(--font-mono); font-size: 9px;
+      color: var(--buriti); display: flex; justify-content: space-between;
+      flex-shrink: 0;
+    }
+
+    /* ── Leaflet overrides ── */
+    .leaflet-popup-content-wrapper { border-radius: 8px; box-shadow: var(--shadow); }
+    .leaflet-tooltip { border-radius: 6px; border: 1px solid var(--border); font-size: 12px; }
+
+    /* ── Estado sem dados ── */
+    .no-data-msg {
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+      background: rgba(255,255,255,.92); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 24px 32px; text-align: center;
+      font-family: var(--font-titulo); color: var(--mata); font-size: 15px;
+      pointer-events: none; z-index: 1000; display: none;
+    }
+    .no-data-msg small { display: block; font-family: var(--font-mono); font-size: 10px; color: var(--buriti); margin-top: 6px; }
+
+    @media (max-width: 700px) {
+      .panel { display: none; }
+      .header-meta { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <a class="brand" href="#">
+    <svg width="34" height="34" viewBox="0 0 64 64" fill="none">
+      <polygon points="32,4 56,18 56,46 32,60 8,46 8,18" stroke="#2D6A4F" stroke-width="2.5"/>
+      <circle cx="32" cy="32" r="7" fill="#52B788"/>
+    </svg>
+    <div class="brand-text">
+      <span class="brand-sigla">REDE BioEcon</span>
+      <span class="brand-sub">GEIA &middot; UFMA &middot; Amazônia Legal</span>
+    </div>
+  </a>
+  <span class="header-title">Arranjos Produtivos Locais — Cadeias de Valor Bioeconomia</span>
+  <div class="header-meta">
+    MAPA INTERATIVO APL<br>
+    Atualizado: Mai. 2026
+  </div>
+</header>
+
+<!-- Filtros -->
+<div class="filters">
+  <div class="filter-group">
+    <label class="filter-label" for="sel-estado">Estado</label>
+    <select class="filter-select" id="sel-estado">
+      <option value="PA">Pará (PA)</option>
+      <option value="AM" disabled>Amazonas (AM) <span class="badge-soon">em breve</span></option>
+      <option value="AC" disabled>Acre (AC)</option>
+      <option value="RR" disabled>Roraima (RR)</option>
+      <option value="RO" disabled>Rondônia (RO)</option>
+      <option value="AP" disabled>Amapá (AP)</option>
+      <option value="TO" disabled>Tocantins (TO)</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <label class="filter-label" for="sel-cadeia">Cadeia de Valor</label>
+    <select class="filter-select" id="sel-cadeia">
+      <option value="acai">Açaí</option>
+      <option value="babaco" disabled>Babaçu</option>
+      <option value="cupuacu" disabled>Cupuaçu</option>
+    </select>
+  </div>
+  <div class="filter-group" style="margin-left:auto; align-items:flex-end;">
+    <span style="font-family:var(--font-mono);font-size:9px;color:var(--buriti);">
+      <span id="info-muns">— municípios mapeados</span>
+    </span>
+    <span style="font-family:var(--font-mono);font-size:9px;color:var(--buriti);">
+      <span id="info-apls">— APLs identificados</span>
+    </span>
+  </div>
+</div>
+
+<!-- Layout principal -->
+<div class="main">
+  <!-- Mapa -->
+  <div style="position:relative; flex:1;">
+    <div id="map"></div>
+    <div class="no-data-msg" id="no-data-msg">
+      Dados ainda não disponíveis
+      <small>Este estado/cadeia será incluído em breve.</small>
+    </div>
+  </div>
+
+  <!-- Painel lateral -->
+  <div class="panel">
+    <!-- Tooltip municipio -->
+    <div id="tooltip-box">
+      <div class="tt-empty">Passe o cursor sobre um município para ver detalhes.</div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-grid" id="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">Municípios APL</div>
+        <div class="stat-val" id="stat-muns">—</div>
+        <div class="stat-sub">no estado</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">APLs</div>
+        <div class="stat-val" id="stat-apls">—</div>
+        <div class="stat-sub">regiões</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">IDRI Médio</div>
+        <div class="stat-val" id="stat-idri">—</div>
+        <div class="stat-sub">estado</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Cobertura</div>
+        <div class="stat-val" id="stat-cobert">—</div>
+        <div class="stat-sub">dos municípios</div>
+      </div>
+    </div>
+
+    <!-- Legenda -->
+    <div class="panel-section">
+      <div class="panel-title">APLs — Legenda</div>
+    </div>
+    <div class="panel-scroll" id="legend-list"></div>
+    <div class="legend-cinza">
+      <div class="legend-dot" style="background:#c8c8c8;"></div>
+      <div class="legend-text">Fora do APL selecionado</div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <span>Fonte: dados APL — GEIA/UFMA; Geometrias — IBGE 2022</span>
+  <span>IDRI = Índice de Desenvolvimento Regional Inclusivo &nbsp;·&nbsp; github.com/jadsonpessoa</span>
+</footer>
+
+<script>
+// ── Estado global ──────────────────────────────────────────────────────────────
+let map, geojsonLayer;
+let currentData = null;
+let currentGeo = null;
+
+const BASE = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+  ? '.'
+  : '.';
+
+// ── Inicializa mapa ────────────────────────────────────────────────────────────
+map = L.map('map', {
+  center: [-4.5, -53],
+  zoom: 6,
+  zoomControl: true,
+  attributionControl: false,
+});
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+  maxZoom: 14,
+}).addTo(map);
+
+L.control.attribution({ position: 'bottomleft' })
+  .addAttribution('© <a href="https://www.openstreetmap.org/">OSM</a> · CartoDB')
+  .addTo(map);
+
+// ── Utilitários ────────────────────────────────────────────────────────────────
+function norm(s) {
+  if (!s) return '';
+  return s.normalize('NFD').replace(/[̀-ͯ]/g, '').trim().toLowerCase();
+}
+
+function idriColor(idri, apl_cor) {
+  // Usa a cor do APL com opacidade baseada no IDRI
+  return apl_cor || '#aaaaaa';
+}
+
+function fillOpacity(idri) {
+  if (!idri && idri !== 0) return 0.15;
+  return 0.35 + idri * 0.5; // 0.35 a 0.85
+}
+
+// ── Carrega dados ──────────────────────────────────────────────────────────────
+async function loadCombo(estado, cadeia) {
+  document.getElementById('no-data-msg').style.display = 'none';
+  try {
+    const [dataRes, geoRes] = await Promise.all([
+      fetch(`${BASE}/data/${cadeia}_${estado}.json`),
+      fetch(`${BASE}/geojson/${estado}.geojson`),
+    ]);
+    if (!dataRes.ok || !geoRes.ok) throw new Error('not found');
+    currentData = await dataRes.json();
+    currentGeo = await geoRes.json();
+    renderMap();
+  } catch (e) {
+    document.getElementById('no-data-msg').style.display = 'block';
+    if (geojsonLayer) { map.removeLayer(geojsonLayer); geojsonLayer = null; }
+    clearPanel();
+  }
+}
+
+// ── Renderiza mapa ─────────────────────────────────────────────────────────────
+function renderMap() {
+  if (geojsonLayer) map.removeLayer(geojsonLayer);
+
+  // Mapa APL: nome_municipio → {apl_label, cor, idri}
+  const aplMap = {};
+  const aplCores = {};
+  currentData.apls.forEach(a => { aplCores[a.label] = a.cor; });
+  Object.entries(currentData.municipios).forEach(([mun, info]) => {
+    aplMap[norm(mun)] = { ...info, cor: aplCores[info.apl_label] || '#aaa' };
+  });
+
+  geojsonLayer = L.geoJSON(currentGeo, {
+    style: feature => {
+      const info = aplMap[norm(feature.properties.nome)];
+      if (!info) return { fillColor: '#c8c8c8', fillOpacity: 0.3, color: '#fff', weight: 0.5 };
+      return {
+        fillColor: info.cor,
+        fillOpacity: fillOpacity(info.idri),
+        color: '#fff',
+        weight: 0.5,
+      };
+    },
+    onEachFeature: (feature, layer) => {
+      const nome = feature.properties.nome;
+      const info = aplMap[norm(nome)];
+      layer.on({
+        mouseover: e => {
+          e.target.setStyle({ weight: 2, color: '#1B4332' });
+          showTooltip(nome, info);
+        },
+        mouseout: e => {
+          geojsonLayer.resetStyle(e.target);
+          clearTooltip();
+        },
+        click: e => {
+          map.fitBounds(e.target.getBounds(), { padding: [40, 40] });
+        },
+      });
+    },
+  }).addTo(map);
+
+  map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+  updatePanel();
+}
+
+// ── Tooltip ────────────────────────────────────────────────────────────────────
+function showTooltip(nome, info) {
+  const el = document.getElementById('tooltip-box');
+  if (!info) {
+    el.innerHTML = `<div class="tt-mun">${nome}</div><div class="tt-empty">Fora do APL selecionado</div>`;
+  } else {
+    el.innerHTML = `
+      <div class="tt-mun">${nome}</div>
+      <div class="tt-apl">APL: ${info.apl_label}</div>
+      <div class="tt-idri">IDRI = ${info.idri.toFixed(4)}</div>
+    `;
+  }
+}
+
+function clearTooltip() {
+  document.getElementById('tooltip-box').innerHTML =
+    '<div class="tt-empty">Passe o cursor sobre um município para ver detalhes.</div>';
+}
+
+// ── Painel lateral ─────────────────────────────────────────────────────────────
+function updatePanel() {
+  const d = currentData;
+  const totalMuns = currentGeo.features.length;
+  const aplMuns = Object.keys(d.municipios).length;
+  const idriMedio = d.apls.reduce((s, a) => s + a.idri_medio, 0) / d.apls.length;
+
+  document.getElementById('stat-muns').textContent = aplMuns;
+  document.getElementById('stat-apls').textContent = d.apls.length;
+  document.getElementById('stat-idri').textContent = idriMedio.toFixed(3);
+  document.getElementById('stat-cobert').textContent =
+    Math.round(aplMuns / totalMuns * 100) + '%';
+
+  document.getElementById('info-muns').textContent =
+    `${aplMuns} municípios mapeados`;
+  document.getElementById('info-apls').textContent =
+    `${d.apls.length} APLs identificados`;
+
+  // Legenda
+  const list = document.getElementById('legend-list');
+  list.innerHTML = '';
+  [...d.apls].sort((a, b) => b.idri_medio - a.idri_medio).forEach(apl => {
+    const item = document.createElement('div');
+    item.className = 'legend-item';
+    item.innerHTML = `
+      <div class="legend-dot" style="background:${apl.cor};"></div>
+      <div class="legend-text">
+        <div class="legend-name">${apl.label}</div>
+        <div class="legend-idri">IDRI médio: ${apl.idri_medio.toFixed(3)}</div>
+        <div class="legend-count">${apl.municipios.length} municípios</div>
+      </div>
+    `;
+    list.appendChild(item);
+  });
+}
+
+function clearPanel() {
+  ['stat-muns','stat-apls','stat-idri','stat-cobert'].forEach(id => {
+    document.getElementById(id).textContent = '—';
+  });
+  document.getElementById('legend-list').innerHTML = '';
+  document.getElementById('info-muns').textContent = '— municípios mapeados';
+  document.getElementById('info-apls').textContent = '— APLs identificados';
+}
+
+// ── Controles ──────────────────────────────────────────────────────────────────
+document.getElementById('sel-estado').addEventListener('change', () => {
+  const estado = document.getElementById('sel-estado').value;
+  const cadeia = document.getElementById('sel-cadeia').value;
+  loadCombo(estado, cadeia);
+});
+
+document.getElementById('sel-cadeia').addEventListener('change', () => {
+  const estado = document.getElementById('sel-estado').value;
+  const cadeia = document.getElementById('sel-cadeia').value;
+  loadCombo(estado, cadeia);
+});
+
+// ── Carga inicial ──────────────────────────────────────────────────────────────
+loadCombo('PA', 'acai');
+</script>
+</body>
+</html>

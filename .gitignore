@@ -1,0 +1,6 @@
+dados_ibge/
+mapa_APL_IDRI_medio.png
+gerar_mapa_APL.py
+*.zip
+__pycache__/
+.claude/

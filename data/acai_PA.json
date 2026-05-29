@@ -1,0 +1,902 @@
+{
+  "estado": "PA",
+  "cadeia": "Açaí",
+  "apls": [
+    {
+      "id": "Açaí-SudesteParaense-PA",
+      "label": "Sudeste Paraense",
+      "cor": "#d4722a",
+      "idri_medio": 0.7221,
+      "municipios": [
+        "Abel Figueiredo",
+        "Bom Jesus do Tocantins",
+        "Brejo Grande do Araguaia",
+        "Breu Branco",
+        "Canaã dos Carajás",
+        "Conceição do Araguaia",
+        "Cumaru do Norte",
+        "Curionópolis",
+        "Dom Eliseu",
+        "Eldorado do Carajás",
+        "Floresta do Araguaia",
+        "Goianésia do Pará",
+        "Itupiranga",
+        "Jacundá",
+        "Marabá",
+        "Nova Ipixuna",
+        "Novo Repartimento",
+        "Ourilândia do Norte",
+        "Palestina do Pará",
+        "Paragominas",
+        "Parauapebas",
+        "Pau D'Arco",
+        "Piçarra",
+        "Rondon do Pará",
+        "Santa Maria das Barreiras",
+        "Santana do Araguaia",
+        "Sapucaia",
+        "São Domingos do Araguaia",
+        "São Félix do Xingu",
+        "São Geraldo do Araguaia",
+        "São João do Araguaia",
+        "Tucumã",
+        "Tucuruí",
+        "Ulianópolis",
+        "Xinguara",
+        "Água Azul do Norte"
+      ]
+    },
+    {
+      "id": "Açaí-SudoesteParaense-PA",
+      "label": "Sudoeste Paraense",
+      "cor": "#8b5e3c",
+      "idri_medio": 0.77431,
+      "municipios": [
+        "Altamira",
+        "Anapu",
+        "Aveiro",
+        "Brasil Novo",
+        "Itaituba",
+        "Jacareacanga",
+        "Medicilândia",
+        "Novo Progresso",
+        "Pacajá",
+        "Rurópolis",
+        "Senador José Porfírio",
+        "Trairão",
+        "Uruará",
+        "Vitória do Xingu"
+      ]
+    },
+    {
+      "id": "Açaí-BaixoAmazonas-PA",
+      "label": "Baixo Amazonas",
+      "cor": "#1a6b3a",
+      "idri_medio": 1.22415,
+      "municipios": [
+        "Alenquer",
+        "Almeirim",
+        "Belterra",
+        "Curuá",
+        "Faro",
+        "Juruti",
+        "Mojuí dos Campos",
+        "Monte Alegre",
+        "Oriximiná",
+        "Placas",
+        "Porto de Moz",
+        "Prainha",
+        "Santarém",
+        "Terra Santa",
+        "Óbidos"
+      ]
+    },
+    {
+      "id": "Açaí-Marajó-PA",
+      "label": "Marajó",
+      "cor": "#2d9e5f",
+      "idri_medio": 1.37904,
+      "municipios": [
+        "Afuá",
+        "Anajás",
+        "Bagre",
+        "Breves",
+        "Cachoeira do Arari",
+        "Chaves",
+        "Curralinho",
+        "Gurupá",
+        "Melgaço",
+        "Muaná",
+        "Ponta de Pedras",
+        "Portel",
+        "Salvaterra",
+        "Santa Cruz do Arari",
+        "Soure",
+        "São Sebastião da Boa Vista"
+      ]
+    },
+    {
+      "id": "Açaí-NordesteParaense-PA",
+      "label": "Nordeste Paraense",
+      "cor": "#c9a84c",
+      "idri_medio": 4.34719,
+      "municipios": [
+        "Abaetetuba",
+        "Acará",
+        "Augusto Corrêa",
+        "Aurora do Pará",
+        "Baião",
+        "Bonito",
+        "Bragança",
+        "Cachoeira do Piriá",
+        "Cametá",
+        "Capanema",
+        "Capitão Poço",
+        "Colares",
+        "Concórdia do Pará",
+        "Curuçá",
+        "Garrafão do Norte",
+        "Igarapé-Açu",
+        "Igarapé-Miri",
+        "Ipixuna do Pará",
+        "Irituia",
+        "Limoeiro do Ajuru",
+        "Magalhães Barata",
+        "Maracanã",
+        "Marapanim",
+        "Mocajuba",
+        "Moju",
+        "Mãe do Rio",
+        "Nova Esperança do Piriá",
+        "Nova Timboteua",
+        "Oeiras do Pará",
+        "Ourém",
+        "Peixe-Boi",
+        "Primavera",
+        "Quatipuru",
+        "Salinópolis",
+        "Santa Luzia do Paruá",
+        "Santa Maria do Pará",
+        "Santarém Novo",
+        "São Caetano de Odivelas",
+        "São Domingos do Capim",
+        "São Francisco do Pará",
+        "São João da Ponta",
+        "São João de Pirabas",
+        "São Miguel do Guamá",
+        "Tailândia",
+        "Terra Alta",
+        "Tomé-Açu",
+        "Tracuateua",
+        "Vigia",
+        "Viseu"
+      ]
+    },
+    {
+      "id": "Açaí-MetropolitanadeBelém-PA",
+      "label": "Metropolitana de Belém",
+      "cor": "#52b788",
+      "idri_medio": 17.40936,
+      "municipios": [
+        "Ananindeua",
+        "Barcarena",
+        "Belém",
+        "Benevides",
+        "Bujaru",
+        "Castanhal",
+        "Inhangapi",
+        "Marituba",
+        "Santa Bárbara do Pará",
+        "Santa Izabel do Pará",
+        "Santo Antônio do Tauá"
+      ]
+    }
+  ],
+  "municipios": {
+    "Alenquer": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.77478
+    },
+    "Almeirim": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.38048
+    },
+    "Belterra": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36656
+    },
+    "Curuá": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.54283
+    },
+    "Faro": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.35061
+    },
+    "Juruti": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.36396
+    },
+    "Mojuí dos Campos": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.31509
+    },
+    "Monte Alegre": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.37133
+    },
+    "Óbidos": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.62639
+    },
+    "Oriximiná": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.36233
+    },
+    "Placas": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36105
+    },
+    "Porto de Moz": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.39708
+    },
+    "Prainha": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.43284
+    },
+    "Santarém": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.36903
+    },
+    "Terra Santa": {
+      "apl_id": "Açaí-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.34795
+    },
+    "Afuá": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.80256
+    },
+    "Anajás": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 5.11067
+    },
+    "Bagre": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 4.07815
+    },
+    "Breves": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.5453
+    },
+    "Cachoeira do Arari": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.19808
+    },
+    "Chaves": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.46263
+    },
+    "Curralinho": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.85194
+    },
+    "Gurupá": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.16997
+    },
+    "Melgaço": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.52172
+    },
+    "Muaná": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.41666
+    },
+    "Ponta de Pedras": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.48029
+    },
+    "Portel": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.88803
+    },
+    "Salvaterra": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.41463
+    },
+    "Santa Cruz do Arari": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.41195
+    },
+    "São Sebastião da Boa Vista": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.30906
+    },
+    "Soure": {
+      "apl_id": "Açaí-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.40293
+    },
+    "Ananindeua": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 24.58091
+    },
+    "Barcarena": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 22.62298
+    },
+    "Belém": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 16.68735
+    },
+    "Benevides": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 16.70174
+    },
+    "Bujaru": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 17.62764
+    },
+    "Castanhal": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 13.86079
+    },
+    "Inhangapi": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 14.99267
+    },
+    "Marituba": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 16.61193
+    },
+    "Santa Bárbara do Pará": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 16.97893
+    },
+    "Santa Izabel do Pará": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 17.18833
+    },
+    "Santo Antônio do Tauá": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 13.64969
+    },
+    "Abaetetuba": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 12.15844
+    },
+    "Acará": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 14.83737
+    },
+    "Augusto Corrêa": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.02206
+    },
+    "Aurora do Pará": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.41132
+    },
+    "Baião": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 3.16093
+    },
+    "Bonito": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.35863
+    },
+    "Bragança": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.94842
+    },
+    "Cachoeira do Piriá": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.04394
+    },
+    "Cametá": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 13.3174
+    },
+    "Capanema": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.92149
+    },
+    "Capitão Poço": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.00187
+    },
+    "Colares": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.89247
+    },
+    "Concórdia do Pará": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 11.77528
+    },
+    "Curuçá": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.47698
+    },
+    "Garrafão do Norte": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.90961
+    },
+    "Igarapé-Açu": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 31.7344
+    },
+    "Igarapé-Miri": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.60485
+    },
+    "Ipixuna do Pará": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.91127
+    },
+    "Irituia": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.08376
+    },
+    "Limoeiro do Ajuru": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 9.73692
+    },
+    "Mãe do Rio": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.91898
+    },
+    "Magalhães Barata": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.95381
+    },
+    "Maracanã": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.93415
+    },
+    "Marapanim": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.93646
+    },
+    "Mocajuba": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 9.91344
+    },
+    "Moju": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 13.30095
+    },
+    "Nova Esperança do Piriá": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.00671
+    },
+    "Nova Timboteua": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 10.53328
+    },
+    "Oeiras do Pará": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 7.0625
+    },
+    "Ourém": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.33543
+    },
+    "Peixe-Boi": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.92764
+    },
+    "Primavera": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.07417
+    },
+    "Quatipuru": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.21693
+    },
+    "Salinópolis": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88032
+    },
+    "Santa Luzia do Paruá": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88738
+    },
+    "Santa Maria do Pará": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.96929
+    },
+    "Santarém Novo": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.92264
+    },
+    "São Caetano de Odivelas": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.91249
+    },
+    "São Domingos do Capim": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.01802
+    },
+    "São Francisco do Pará": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.08124
+    },
+    "São João da Ponta": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.97207
+    },
+    "São João de Pirabas": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.90172
+    },
+    "São Miguel do Guamá": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.3776
+    },
+    "Tailândia": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 11.04834
+    },
+    "Terra Alta": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.90494
+    },
+    "Tomé-Açu": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 11.62942
+    },
+    "Tracuateua": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.96738
+    },
+    "Vigia": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88881
+    },
+    "Viseu": {
+      "apl_id": "Açaí-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.22871
+    },
+    "Abel Figueiredo": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.71713
+    },
+    "Água Azul do Norte": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.7409
+    },
+    "Bom Jesus do Tocantins": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.71266
+    },
+    "Brejo Grande do Araguaia": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.47232
+    },
+    "Breu Branco": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.2679
+    },
+    "Canaã dos Carajás": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.24907
+    },
+    "Conceição do Araguaia": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.97955
+    },
+    "Cumaru do Norte": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.51478
+    },
+    "Curionópolis": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.82868
+    },
+    "Dom Eliseu": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.76251
+    },
+    "Eldorado do Carajás": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.86303
+    },
+    "Floresta do Araguaia": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.68875
+    },
+    "Goianésia do Pará": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.76044
+    },
+    "Itupiranga": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.19899
+    },
+    "Jacundá": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.23553
+    },
+    "Marabá": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.97215
+    },
+    "Nova Ipixuna": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.29716
+    },
+    "Novo Repartimento": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.47264
+    },
+    "Ourilândia do Norte": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.54735
+    },
+    "Palestina do Pará": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.44776
+    },
+    "Paragominas": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.18486
+    },
+    "Parauapebas": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.21845
+    },
+    "Pau D'Arco": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.31356
+    },
+    "Piçarra": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.37262
+    },
+    "Rondon do Pará": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.7165
+    },
+    "Santa Maria das Barreiras": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.13548
+    },
+    "Santana do Araguaia": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.13532
+    },
+    "São Domingos do Araguaia": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.46784
+    },
+    "São Félix do Xingu": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.41417
+    },
+    "São Geraldo do Araguaia": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.36061
+    },
+    "São João do Araguaia": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.52269
+    },
+    "Sapucaia": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.31356
+    },
+    "Tucumã": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.56298
+    },
+    "Tucuruí": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.87855
+    },
+    "Ulianópolis": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.75053
+    },
+    "Xinguara": {
+      "apl_id": "Açaí-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.91863
+    },
+    "Altamira": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.36395
+    },
+    "Anapu": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.74421
+    },
+    "Aveiro": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.42554
+    },
+    "Brasil Novo": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.97118
+    },
+    "Itaituba": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.39645
+    },
+    "Jacareacanga": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.73239
+    },
+    "Medicilândia": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.72928
+    },
+    "Novo Progresso": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.68169
+    },
+    "Pacajá": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.67926
+    },
+    "Rurópolis": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.39081
+    },
+    "Senador José Porfírio": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.68523
+    },
+    "Trairão": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.44949
+    },
+    "Uruará": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.88693
+    },
+    "Vitória do Xingu": {
+      "apl_id": "Açaí-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.704
+    }
+  }
+}
