@@ -317,12 +317,12 @@ function renderMap() {
   geojsonLayer = L.geoJSON(currentGeo, {
     style: feature => {
       const info = aplMap[norm(feature.properties.nome)];
-      if (!info) return { fillColor: '#c8c8c8', fillOpacity: 0.3, color: '#fff', weight: 0.5 };
+      if (!info) return { fillColor: '#c8c8c8', fillOpacity: 0.3, color: '#555', weight: 0.6 };
       return {
         fillColor: info.cor,
         fillOpacity: fillOpacity(info.idri),
-        color: '#fff',
-        weight: 0.5,
+        color: '#111',
+        weight: 1.8,
       };
     },
     onEachFeature: (feature, layer) => {
