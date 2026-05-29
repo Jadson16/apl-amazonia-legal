@@ -327,7 +327,7 @@ function renderMap() {
         fillColor: info.cor,
         fillOpacity: fillOpacity(info.idri),
         color: '#111',
-        weight: 1.8,
+        weight: 0.6,
       };
     },
     onEachFeature: (feature, layer) => {
@@ -374,7 +374,7 @@ function renderMap() {
   });
 
   aplContourLayer = L.geoJSON(turf.featureCollection(contornos), {
-    style: { fillOpacity: 0, color: '#111', weight: 2.8, dashArray: null },
+    style: { fillOpacity: 0, color: '#111', weight: 1.8, dashArray: null },
     interactive: false,
   }).addTo(map);
 
