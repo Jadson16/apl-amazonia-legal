@@ -473,25 +473,42 @@ function updatePanel() {
 }
 
 // ── Highlight APL ──────────────────────────────────────────────────────────────
-function darkenHex(hex, amount = 40) {
+function hexToRgb(hex) {
   const n = parseInt(hex.replace('#',''), 16);
-  const r = Math.max(0, (n >> 16) - amount);
-  const g = Math.max(0, ((n >> 8) & 0xff) - amount);
-  const b = Math.max(0, (n & 0xff) - amount);
-  return '#' + [r,g,b].map(x => x.toString(16).padStart(2,'0')).join('');
+  return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+}
+
+function lerpColor(hex, t) {
+  // t=0 → branco acinzentado claro; t=1 → cor original escurecida
+  const [r, g, b] = hexToRgb(hex);
+  const light = [r + Math.round((240-r)*0.7), g + Math.round((240-g)*0.7), b + Math.round((240-b)*0.7)];
+  const dark  = [Math.round(r*0.55), Math.round(g*0.55), Math.round(b*0.55)];
+  const ri = Math.round(light[0] + (dark[0]-light[0])*t);
+  const gi = Math.round(light[1] + (dark[1]-light[1])*t);
+  const bi = Math.round(light[2] + (dark[2]-light[2])*t);
+  return '#' + [ri,gi,bi].map(x => x.toString(16).padStart(2,'0')).join('');
 }
 
 function highlightApl(label) {
   if (!geojsonLayer) return;
+
+  // Calcula min/max IDRI dentro do APL selecionado
+  const idris = Object.values(currentAplMap)
+    .filter(v => v.apl_label === label)
+    .map(v => v.idri);
+  const minI = Math.min(...idris);
+  const maxI = Math.max(...idris);
+  const range = maxI - minI || 1;
+
   geojsonLayer.eachLayer(layer => {
     const info = currentAplMap[norm(layer.feature.properties.nome)];
     if (!info) {
-      layer.setStyle({ fillOpacity: 0.1 });
+      layer.setStyle({ fillOpacity: 0.08 });
     } else if (info.apl_label === label) {
-      const dark = darkenHex(info.cor, 40);
-      layer.setStyle({ fillColor: dark, fillOpacity: 0.92 });
+      const t = (info.idri - minI) / range;   // 0=menor IDRI, 1=maior IDRI
+      layer.setStyle({ fillColor: lerpColor(info.cor, t), fillOpacity: 0.92 });
     } else {
-      layer.setStyle({ fillOpacity: 0.15 });
+      layer.setStyle({ fillOpacity: 0.08 });
     }
   });
 }
