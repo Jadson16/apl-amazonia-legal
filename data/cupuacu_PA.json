@@ -1,0 +1,637 @@
+{
+  "estado": "PA",
+  "cadeia": "Cupuaçu",
+  "apls": [
+    {
+      "id": "Cupuaçu-Marajó-PA",
+      "label": "Marajó",
+      "idri_medio": 0.4048,
+      "municipios": [
+        "Afuá",
+        "Anajás",
+        "Breves",
+        "Cachoeira do Arari",
+        "Curralinho",
+        "Gurupá",
+        "Muaná",
+        "Ponta de Pedras",
+        "Portel",
+        "São Sebastião da Boa Vista",
+        "Total"
+      ],
+      "cor": "#ffffcc"
+    },
+    {
+      "id": "Cupuaçu-SudoesteParaense-PA",
+      "label": "Sudoeste Paraense",
+      "idri_medio": 0.53032,
+      "municipios": [
+        "Altamira",
+        "Itaituba",
+        "Jacareacanga",
+        "Medicilândia",
+        "Novo Progresso",
+        "Pacajá",
+        "Rurópolis",
+        "Total",
+        "Uruará",
+        "Vitória do Xingu"
+      ],
+      "cor": "#fee186"
+    },
+    {
+      "id": "Cupuaçu-SudesteParaense-PA",
+      "label": "Sudeste Paraense",
+      "idri_medio": 0.81243,
+      "municipios": [
+        "Breu Branco",
+        "Canaã dos Carajás",
+        "Conceição do Araguaia",
+        "Curionópolis",
+        "Dom Eliseu",
+        "Eldorado do Carajás",
+        "Floresta do Araguaia",
+        "Goianésia do Pará",
+        "Itupiranga",
+        "Marabá",
+        "Nova Ipixuna",
+        "Paragominas",
+        "Parauapebas",
+        "São Domingos do Araguaia",
+        "São Félix do Xingu",
+        "Total",
+        "Tucuruí",
+        "Ulianópolis",
+        "Xinguara"
+      ],
+      "cor": "#fdaa48"
+    },
+    {
+      "id": "Cupuaçu-BaixoAmazonas-PA",
+      "label": "Baixo Amazonas",
+      "idri_medio": 1.08356,
+      "municipios": [
+        "Alenquer",
+        "Almeirim",
+        "Belterra",
+        "Mojuí dos Campos",
+        "Oriximiná",
+        "Placas",
+        "Santarém",
+        "Total",
+        "Óbidos"
+      ],
+      "cor": "#fc5a2d"
+    },
+    {
+      "id": "Cupuaçu-NordesteParaense-PA",
+      "label": "Nordeste Paraense",
+      "idri_medio": 1.20061,
+      "municipios": [
+        "Abaetetuba",
+        "Acará",
+        "Baião",
+        "Bragança",
+        "Cametá",
+        "Capitão Poço",
+        "Colares",
+        "Concórdia do Pará",
+        "Curuçá",
+        "Garrafão do Norte",
+        "Igarapé-Açu",
+        "Igarapé-Miri",
+        "Ipixuna do Pará",
+        "Irituia",
+        "Magalhães Barata",
+        "Maracanã",
+        "Mocajuba",
+        "Moju",
+        "Mãe do Rio",
+        "Nova Esperança do Piriá",
+        "Nova Timboteua",
+        "Oeiras do Pará",
+        "Ourém",
+        "Peixe-Boi",
+        "Primavera",
+        "Quatipuru",
+        "Santa Luzia do Paruá",
+        "Santa Maria do Pará",
+        "São Caetano de Odivelas",
+        "São Domingos do Capim",
+        "São Francisco do Pará",
+        "São João da Ponta",
+        "São João de Pirabas",
+        "São Miguel do Guamá",
+        "Tailândia",
+        "Tomé-Açu",
+        "Total",
+        "Tracuateua",
+        "Vigia",
+        "Viseu"
+      ],
+      "cor": "#d30f20"
+    },
+    {
+      "id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "label": "Metropolitana de Belém",
+      "idri_medio": 6.31898,
+      "municipios": [
+        "Ananindeua",
+        "Barcarena",
+        "Belém",
+        "Benevides",
+        "Bujaru",
+        "Castanhal",
+        "Inhangapi",
+        "Marituba",
+        "Santa Bárbara do Pará",
+        "Santa Izabel do Pará",
+        "Santo Antônio do Tauá",
+        "Total"
+      ],
+      "cor": "#800026"
+    }
+  ],
+  "municipios": {
+    "Alenquer": {
+      "apl_id": "Cupuaçu-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36171
+    },
+    "Almeirim": {
+      "apl_id": "Cupuaçu-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36087
+    },
+    "Belterra": {
+      "apl_id": "Cupuaçu-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36089
+    },
+    "Mojuí dos Campos": {
+      "apl_id": "Cupuaçu-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.28014
+    },
+    "Óbidos": {
+      "apl_id": "Cupuaçu-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.61568
+    },
+    "Oriximiná": {
+      "apl_id": "Cupuaçu-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.97017
+    },
+    "Placas": {
+      "apl_id": "Cupuaçu-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36136
+    },
+    "Santarém": {
+      "apl_id": "Cupuaçu-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.35764
+    },
+    "Total": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 6.31898
+    },
+    "Afuá": {
+      "apl_id": "Cupuaçu-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.11753
+    },
+    "Anajás": {
+      "apl_id": "Cupuaçu-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.90997
+    },
+    "Breves": {
+      "apl_id": "Cupuaçu-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.62381
+    },
+    "Cachoeira do Arari": {
+      "apl_id": "Cupuaçu-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.18145
+    },
+    "Curralinho": {
+      "apl_id": "Cupuaçu-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.11746
+    },
+    "Gurupá": {
+      "apl_id": "Cupuaçu-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.10145
+    },
+    "Muaná": {
+      "apl_id": "Cupuaçu-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.38854
+    },
+    "Ponta de Pedras": {
+      "apl_id": "Cupuaçu-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.38854
+    },
+    "Portel": {
+      "apl_id": "Cupuaçu-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.10168
+    },
+    "São Sebastião da Boa Vista": {
+      "apl_id": "Cupuaçu-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.11755
+    },
+    "Ananindeua": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 24.55334
+    },
+    "Barcarena": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.83113
+    },
+    "Belém": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.87903
+    },
+    "Benevides": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.92294
+    },
+    "Bujaru": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.82864
+    },
+    "Castanhal": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 9.57042
+    },
+    "Inhangapi": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.96845
+    },
+    "Marituba": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.88428
+    },
+    "Santa Bárbara do Pará": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 4.1543
+    },
+    "Santa Izabel do Pará": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 4.0298
+    },
+    "Santo Antônio do Tauá": {
+      "apl_id": "Cupuaçu-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.8865
+    },
+    "Abaetetuba": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.78601
+    },
+    "Acará": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.98476
+    },
+    "Baião": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88184
+    },
+    "Bragança": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87936
+    },
+    "Cametá": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.8825
+    },
+    "Capitão Poço": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.17609
+    },
+    "Colares": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87915
+    },
+    "Concórdia do Pará": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87934
+    },
+    "Curuçá": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.46918
+    },
+    "Garrafão do Norte": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87892
+    },
+    "Igarapé-Açu": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.8794
+    },
+    "Igarapé-Miri": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.49352
+    },
+    "Ipixuna do Pará": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87902
+    },
+    "Irituia": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87923
+    },
+    "Mãe do Rio": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.8789
+    },
+    "Magalhães Barata": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87897
+    },
+    "Maracanã": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87904
+    },
+    "Mocajuba": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 7.79027
+    },
+    "Moju": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88049
+    },
+    "Nova Esperança do Piriá": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87891
+    },
+    "Nova Timboteua": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87912
+    },
+    "Oeiras do Pará": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87889
+    },
+    "Ourém": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87897
+    },
+    "Peixe-Boi": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87891
+    },
+    "Primavera": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87889
+    },
+    "Quatipuru": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.8789
+    },
+    "Santa Luzia do Paruá": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87891
+    },
+    "Santa Maria do Pará": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
+    },
+    "São Caetano de Odivelas": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88143
+    },
+    "São Domingos do Capim": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87896
+    },
+    "São Francisco do Pará": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.06113
+    },
+    "São João da Ponta": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87897
+    },
+    "São João de Pirabas": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87895
+    },
+    "São Miguel do Guamá": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87888
+    },
+    "Tailândia": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87919
+    },
+    "Tomé-Açu": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.80221
+    },
+    "Tracuateua": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87902
+    },
+    "Vigia": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87977
+    },
+    "Viseu": {
+      "apl_id": "Cupuaçu-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87976
+    },
+    "Breu Branco": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.2125
+    },
+    "Canaã dos Carajás": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.24642
+    },
+    "Conceição do Araguaia": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.97955
+    },
+    "Curionópolis": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.82748
+    },
+    "Dom Eliseu": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.11088
+    },
+    "Eldorado do Carajás": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.85558
+    },
+    "Floresta do Araguaia": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.68875
+    },
+    "Goianésia do Pará": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.11189
+    },
+    "Itupiranga": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.21444
+    },
+    "Marabá": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.98221
+    },
+    "Nova Ipixuna": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.2123
+    },
+    "Paragominas": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.17045
+    },
+    "Parauapebas": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.19633
+    },
+    "São Domingos do Araguaia": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.4939
+    },
+    "São Félix do Xingu": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.41417
+    },
+    "Tucuruí": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.87705
+    },
+    "Ulianópolis": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.11185
+    },
+    "Xinguara": {
+      "apl_id": "Cupuaçu-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.91804
+    },
+    "Altamira": {
+      "apl_id": "Cupuaçu-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.38982
+    },
+    "Itaituba": {
+      "apl_id": "Cupuaçu-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.26239
+    },
+    "Jacareacanga": {
+      "apl_id": "Cupuaçu-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.72791
+    },
+    "Medicilândia": {
+      "apl_id": "Cupuaçu-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.11005
+    },
+    "Novo Progresso": {
+      "apl_id": "Cupuaçu-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.69566
+    },
+    "Pacajá": {
+      "apl_id": "Cupuaçu-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.10817
+    },
+    "Rurópolis": {
+      "apl_id": "Cupuaçu-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.26323
+    },
+    "Uruará": {
+      "apl_id": "Cupuaçu-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.10775
+    },
+    "Vitória do Xingu": {
+      "apl_id": "Cupuaçu-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.10792
+    }
+  }
+}

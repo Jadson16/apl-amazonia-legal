@@ -1,0 +1,445 @@
+{
+  "estado": "PA",
+  "cadeia": "Bacaba",
+  "apls": [
+    {
+      "id": "Bacaba-Marajó-PA",
+      "label": "Marajó",
+      "idri_medio": 0.58298,
+      "municipios": [
+        "Anajás",
+        "Breves",
+        "Cachoeira do Arari",
+        "Gurupá",
+        "Ponta de Pedras",
+        "Total"
+      ],
+      "cor": "#ffffcc"
+    },
+    {
+      "id": "Bacaba-SudoesteParaense-PA",
+      "label": "Sudoeste Paraense",
+      "idri_medio": 0.99423,
+      "municipios": [
+        "Altamira",
+        "Jacareacanga",
+        "Medicilândia",
+        "Novo Progresso",
+        "Total"
+      ],
+      "cor": "#fee186"
+    },
+    {
+      "id": "Bacaba-SudesteParaense-PA",
+      "label": "Sudeste Paraense",
+      "idri_medio": 1.19063,
+      "municipios": [
+        "Canaã dos Carajás",
+        "Conceição do Araguaia",
+        "Curionópolis",
+        "Dom Eliseu",
+        "Eldorado do Carajás",
+        "Floresta do Araguaia",
+        "Itupiranga",
+        "Marabá",
+        "Palestina do Pará",
+        "Paragominas",
+        "Parauapebas",
+        "São Domingos do Araguaia",
+        "São Félix do Xingu",
+        "Total",
+        "Tucuruí",
+        "Xinguara"
+      ],
+      "cor": "#fdaa48"
+    },
+    {
+      "id": "Bacaba-NordesteParaense-PA",
+      "label": "Nordeste Paraense",
+      "idri_medio": 1.45956,
+      "municipios": [
+        "Abaetetuba",
+        "Acará",
+        "Baião",
+        "Cachoeira do Piriá",
+        "Cametá",
+        "Capitão Poço",
+        "Concórdia do Pará",
+        "Curuçá",
+        "Igarapé-Açu",
+        "Igarapé-Miri",
+        "Maracanã",
+        "Mocajuba",
+        "Moju",
+        "Mãe do Rio",
+        "Oeiras do Pará",
+        "Santa Maria do Pará",
+        "São Caetano de Odivelas",
+        "São Domingos do Capim",
+        "São Francisco do Pará",
+        "Tailândia",
+        "Tomé-Açu",
+        "Total",
+        "Viseu"
+      ],
+      "cor": "#fc5a2d"
+    },
+    {
+      "id": "Bacaba-BaixoAmazonas-PA",
+      "label": "Baixo Amazonas",
+      "idri_medio": 2.41387,
+      "municipios": [
+        "Almeirim",
+        "Faro",
+        "Mojuí dos Campos",
+        "Oriximiná",
+        "Santarém",
+        "Total",
+        "Óbidos"
+      ],
+      "cor": "#d30f20"
+    },
+    {
+      "id": "Bacaba-MetropolitanadeBelém-PA",
+      "label": "Metropolitana de Belém",
+      "idri_medio": 6.31979,
+      "municipios": [
+        "Ananindeua",
+        "Barcarena",
+        "Belém",
+        "Benevides",
+        "Bujaru",
+        "Castanhal",
+        "Inhangapi",
+        "Marituba",
+        "Santa Bárbara do Pará",
+        "Santa Izabel do Pará",
+        "Santo Antônio do Tauá",
+        "Total"
+      ],
+      "cor": "#800026"
+    }
+  ],
+  "municipios": {
+    "Almeirim": {
+      "apl_id": "Bacaba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 6.84866
+    },
+    "Faro": {
+      "apl_id": "Bacaba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36079
+    },
+    "Mojuí dos Campos": {
+      "apl_id": "Bacaba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.31511
+    },
+    "Óbidos": {
+      "apl_id": "Bacaba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.62278
+    },
+    "Oriximiná": {
+      "apl_id": "Bacaba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.96865
+    },
+    "Santarém": {
+      "apl_id": "Bacaba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.3672
+    },
+    "Total": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 6.31979
+    },
+    "Anajás": {
+      "apl_id": "Bacaba-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.90957
+    },
+    "Breves": {
+      "apl_id": "Bacaba-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.62377
+    },
+    "Cachoeira do Arari": {
+      "apl_id": "Bacaba-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.17858
+    },
+    "Gurupá": {
+      "apl_id": "Bacaba-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.10155
+    },
+    "Ponta de Pedras": {
+      "apl_id": "Bacaba-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.10141
+    },
+    "Ananindeua": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 24.57843
+    },
+    "Barcarena": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.82909
+    },
+    "Belém": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.89566
+    },
+    "Benevides": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.89566
+    },
+    "Bujaru": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.82828
+    },
+    "Castanhal": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 9.53405
+    },
+    "Inhangapi": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.96399
+    },
+    "Marituba": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.89566
+    },
+    "Santa Bárbara do Pará": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 4.16895
+    },
+    "Santa Izabel do Pará": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 4.03231
+    },
+    "Santo Antônio do Tauá": {
+      "apl_id": "Bacaba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.89566
+    },
+    "Abaetetuba": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.78474
+    },
+    "Acará": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.0447
+    },
+    "Baião": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87914
+    },
+    "Cachoeira do Piriá": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.8789
+    },
+    "Cametá": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87905
+    },
+    "Capitão Poço": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.17609
+    },
+    "Concórdia do Pará": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.91535
+    },
+    "Curuçá": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.46872
+    },
+    "Igarapé-Açu": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87896
+    },
+    "Igarapé-Miri": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.53132
+    },
+    "Mãe do Rio": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
+    },
+    "Maracanã": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87901
+    },
+    "Mocajuba": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 7.80882
+    },
+    "Moju": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.92066
+    },
+    "Oeiras do Pará": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87905
+    },
+    "Santa Maria do Pará": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
+    },
+    "São Caetano de Odivelas": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87891
+    },
+    "São Domingos do Capim": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87888
+    },
+    "São Francisco do Pará": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.0931
+    },
+    "Tailândia": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.92049
+    },
+    "Tomé-Açu": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.77699
+    },
+    "Viseu": {
+      "apl_id": "Bacaba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88164
+    },
+    "Canaã dos Carajás": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.24599
+    },
+    "Conceição do Araguaia": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.00236
+    },
+    "Curionópolis": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.82748
+    },
+    "Dom Eliseu": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 2.38997
+    },
+    "Eldorado do Carajás": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.85509
+    },
+    "Floresta do Araguaia": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.99718
+    },
+    "Itupiranga": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.18995
+    },
+    "Marabá": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.9673
+    },
+    "Palestina do Pará": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.11182
+    },
+    "Paragominas": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 2.38997
+    },
+    "Parauapebas": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.20989
+    },
+    "São Domingos do Araguaia": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.4628
+    },
+    "São Félix do Xingu": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.41417
+    },
+    "Tucuruí": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.87746
+    },
+    "Xinguara": {
+      "apl_id": "Bacaba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.91804
+    },
+    "Altamira": {
+      "apl_id": "Bacaba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.35919
+    },
+    "Jacareacanga": {
+      "apl_id": "Bacaba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.72752
+    },
+    "Medicilândia": {
+      "apl_id": "Bacaba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.21434
+    },
+    "Novo Progresso": {
+      "apl_id": "Bacaba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.67589
+    }
+  }
+}

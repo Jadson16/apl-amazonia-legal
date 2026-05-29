@@ -218,9 +218,7 @@
   <div class="filter-group">
     <label class="filter-label" for="sel-cadeia">Cadeia de Valor</label>
     <select class="filter-select" id="sel-cadeia">
-      <option value="acai">Açaí</option>
-      <option value="babaco" disabled>Babaçu</option>
-      <option value="cupuacu" disabled>Cupuaçu</option>
+      <option value="">Carregando…</option>
     </select>
   </div>
   <div class="filter-group">
@@ -789,8 +787,32 @@ document.getElementById('sel-cadeia').addEventListener('change', () => {
   loadCombo(estado, cadeia);
 });
 
-// ── Carga inicial ──────────────────────────────────────────────────────────────
-loadCombo('PA', 'acai');
+// ── Carga inicial — popula select de cadeias a partir do index.json ───────────
+(async () => {
+  try {
+    const res = await fetch(`${BASE}/data/index.json`);
+    const idx = await res.json();
+    const sel = document.getElementById('sel-cadeia');
+    sel.innerHTML = '';
+    // Filtra pelo estado selecionado e ordena alfabeticamente
+    const estado = document.getElementById('sel-estado').value;
+    idx
+      .filter(c => c.estado === estado)
+      .sort((a, b) => a.cadeia.localeCompare(b.cadeia, 'pt-BR'))
+      .forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c.slug;
+        opt.textContent = c.cadeia;
+        if (c.slug === 'acai') opt.selected = true;
+        sel.appendChild(opt);
+      });
+    const cadeia = sel.value;
+    loadCombo(estado, cadeia);
+  } catch (e) {
+    console.error('Erro ao carregar índice de cadeias:', e);
+    loadCombo('PA', 'acai');
+  }
+})();
 </script>
 </body>
 </html>

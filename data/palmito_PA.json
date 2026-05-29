@@ -1,0 +1,256 @@
+{
+  "estado": "PA",
+  "cadeia": "Palmito",
+  "apls": [
+    {
+      "id": "Palmito-Marajó-PA",
+      "label": "Marajó",
+      "idri_medio": 0.57202,
+      "municipios": [
+        "Afuá",
+        "Anajás",
+        "Bagre",
+        "Breves",
+        "Cachoeira do Arari",
+        "Chaves",
+        "Curralinho",
+        "Gurupá",
+        "Melgaço",
+        "Muaná",
+        "Ponta de Pedras",
+        "Portel",
+        "Santa Cruz do Arari",
+        "São Sebastião da Boa Vista",
+        "Total"
+      ],
+      "cor": "#ffffcc"
+    },
+    {
+      "id": "Palmito-SudoesteParaense-PA",
+      "label": "Sudoeste Paraense",
+      "idri_medio": 0.63852,
+      "municipios": [
+        "Anapu",
+        "Itaituba",
+        "Pacajá",
+        "Total",
+        "Trairão"
+      ],
+      "cor": "#fed976"
+    },
+    {
+      "id": "Palmito-SudesteParaense-PA",
+      "label": "Sudeste Paraense",
+      "idri_medio": 0.65276,
+      "municipios": [
+        "Itupiranga",
+        "Marabá",
+        "Total"
+      ],
+      "cor": "#fd8d3c"
+    },
+    {
+      "id": "Palmito-NordesteParaense-PA",
+      "label": "Nordeste Paraense",
+      "idri_medio": 0.94109,
+      "municipios": [
+        "Abaetetuba",
+        "Acará",
+        "Cametá",
+        "Igarapé-Açu",
+        "Igarapé-Miri",
+        "Limoeiro do Ajuru",
+        "Moju",
+        "Oeiras do Pará",
+        "Santa Maria do Pará",
+        "São Domingos do Capim",
+        "Total"
+      ],
+      "cor": "#e31a1c"
+    },
+    {
+      "id": "Palmito-MetropolitanadeBelém-PA",
+      "label": "Metropolitana de Belém",
+      "idri_medio": 1.86799,
+      "municipios": [
+        "Barcarena",
+        "Belém",
+        "Castanhal",
+        "Total"
+      ],
+      "cor": "#800026"
+    }
+  ],
+  "municipios": {
+    "Afuá": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.50729
+    },
+    "Anajás": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.76167
+    },
+    "Bagre": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.085
+    },
+    "Breves": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.15554
+    },
+    "Cachoeira do Arari": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.34215
+    },
+    "Chaves": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.34639
+    },
+    "Curralinho": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.93745
+    },
+    "Gurupá": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.08452
+    },
+    "Melgaço": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.08504
+    },
+    "Muaná": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.14094
+    },
+    "Ponta de Pedras": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.34355
+    },
+    "Portel": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.08581
+    },
+    "Santa Cruz do Arari": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.34235
+    },
+    "São Sebastião da Boa Vista": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.79061
+    },
+    "Total": {
+      "apl_id": "Palmito-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.86799
+    },
+    "Barcarena": {
+      "apl_id": "Palmito-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 2.04496
+    },
+    "Belém": {
+      "apl_id": "Palmito-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.90909
+    },
+    "Castanhal": {
+      "apl_id": "Palmito-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.64991
+    },
+    "Abaetetuba": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.72529
+    },
+    "Acará": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.61447
+    },
+    "Cametá": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.27299
+    },
+    "Igarapé-Açu": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.52966
+    },
+    "Igarapé-Miri": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.1881
+    },
+    "Limoeiro do Ajuru": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.55867
+    },
+    "Moju": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.6225
+    },
+    "Oeiras do Pará": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.37451
+    },
+    "Santa Maria do Pará": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.61318
+    },
+    "São Domingos do Capim": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.91152
+    },
+    "Itupiranga": {
+      "apl_id": "Palmito-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.07077
+    },
+    "Marabá": {
+      "apl_id": "Palmito-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.23475
+    },
+    "Anapu": {
+      "apl_id": "Palmito-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.13067
+    },
+    "Itaituba": {
+      "apl_id": "Palmito-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.09089
+    },
+    "Pacajá": {
+      "apl_id": "Palmito-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.15779
+    },
+    "Trairão": {
+      "apl_id": "Palmito-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.17474
+    }
+  }
+}

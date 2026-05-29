@@ -1,6 +1,6 @@
 """
 preparar_dados.py
-Converte APLs_PA.xlsx → JSON de dados e simplifica GeoJSONs para uso web.
+Converte APLs_PA_Geral.xlsx → JSON de dados por cadeia/estado e simplifica GeoJSONs para uso web.
 Execute uma vez sempre que a planilha for atualizada.
 """
 import json
@@ -13,7 +13,7 @@ import openpyxl
 import pandas as pd
 
 # ── Configurações ──────────────────────────────────────────────────────────────
-EXCEL_FILE = "APLs_PA.xlsx"
+EXCEL_FILE = "APLs_PA_Geral.xlsx"
 GEOJSON_DIR = Path("dados_ibge")
 OUT_DATA = Path("data")
 OUT_GEO = Path("geojson")
@@ -71,24 +71,30 @@ def apl_label(apl_raw: str) -> str:
 
 # ── Leitura da planilha ────────────────────────────────────────────────────────
 wb = openpyxl.load_workbook(EXCEL_FILE)
-print(f"Abas encontradas: {wb.sheetnames}")
+print(f"Arquivo: {EXCEL_FILE}  |  Abas: {wb.sheetnames}")
 
+# Lê tudo em um DataFrame único (suporta aba única ou múltiplas abas)
+frames = []
 for sheet_name in wb.sheetnames:
     ws = wb[sheet_name]
     rows = list(ws.iter_rows(min_row=2, values_only=True))
-    df = pd.DataFrame(rows, columns=["cadeia", "apl", "municipio", "idri", "count", "sum_val"])
-    df = df[df["municipio"].notna()].copy()
-    df["mun_norm"] = df["municipio"].apply(norm)
-    df["apl_label"] = df["apl"].apply(apl_label)
+    frames.append(pd.DataFrame(rows, columns=["cadeia", "apl", "municipio", "idri", "count", "sum_val"]))
+
+df_all = pd.concat(frames, ignore_index=True)
+df_all = df_all[df_all["municipio"].notna() & df_all["cadeia"].notna()].copy()
+df_all["mun_norm"]  = df_all["municipio"].apply(norm)
+df_all["apl_label"] = df_all["apl"].apply(apl_label)
+
+cadeias_geradas = []
+
+for cadeia_raw, df in df_all.groupby("cadeia"):
+    # Estado (2 últimas letras do nome do APL)
+    estado = df["apl"].iloc[0].split("-")[-1] if not df.empty else "PA"
 
     # IDRI médio por APL
     idri_medio = df.groupby("apl")["idri"].mean().to_dict()
 
-    # Estado (2 últimas letras do nome do APL)
-    estado = df["apl"].iloc[0].split("-")[-1] if not df.empty else "PA"
-    cadeia = df["cadeia"].iloc[0] if not df.empty else sheet_name
-
-    # Montar estrutura de APLs (sem cor ainda — atribuída após ordenar por IDRI)
+    # Montar estrutura de APLs (ordenados por IDRI crescente)
     apls_out = []
     for apl_raw, grupo in df.groupby("apl"):
         label = apl_label(apl_raw)
@@ -105,25 +111,33 @@ for sheet_name in wb.sheetnames:
     for i, apl in enumerate(apls_out):
         apl["cor"] = cores[i]
 
-    # Montar dicionário por município
+    # Montar dicionário por município (em caso de duplicata, mantém o maior IDRI)
     muns_out = {}
     for _, row in df.iterrows():
-        muns_out[row["municipio"]] = {
-            "apl_id": row["apl"],
-            "apl_label": row["apl_label"],
-            "idri": round(row["idri"], 5),
-        }
+        nome = row["municipio"]
+        if nome not in muns_out or row["idri"] > muns_out[nome]["idri"]:
+            muns_out[nome] = {
+                "apl_id":    row["apl"],
+                "apl_label": row["apl_label"],
+                "idri":      round(row["idri"], 5),
+            }
 
     resultado = {
-        "estado": estado,
-        "cadeia": cadeia,
-        "apls": apls_out,
+        "estado":     estado,
+        "cadeia":     cadeia_raw,
+        "apls":       apls_out,
         "municipios": muns_out,
     }
 
-    out_file = OUT_DATA / f"{norm(cadeia)}_{estado}.json"
+    out_file = OUT_DATA / f"{norm(cadeia_raw)}_{estado}.json"
     out_file.write_text(json.dumps(resultado, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"  -> {out_file}  ({len(muns_out)} municipios, {len(apls_out)} APLs)")
+    cadeias_geradas.append({"cadeia": cadeia_raw, "slug": norm(cadeia_raw), "estado": estado})
+
+# Gera índice de cadeias para o frontend
+idx_file = OUT_DATA / "index.json"
+idx_file.write_text(json.dumps(cadeias_geradas, ensure_ascii=False, indent=2), encoding="utf-8")
+print(f"\nIndice gerado: {idx_file}  ({len(cadeias_geradas)} cadeias)")
 
 # ── Simplificação dos GeoJSONs ────────────────────────────────────────────────
 geo_sources = {

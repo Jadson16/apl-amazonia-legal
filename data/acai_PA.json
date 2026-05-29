@@ -38,6 +38,7 @@
         "São Félix do Xingu",
         "São Geraldo do Araguaia",
         "São João do Araguaia",
+        "Total",
         "Tucumã",
         "Tucuruí",
         "Ulianópolis",
@@ -62,6 +63,7 @@
         "Pacajá",
         "Rurópolis",
         "Senador José Porfírio",
+        "Total",
         "Trairão",
         "Uruará",
         "Vitória do Xingu"
@@ -87,6 +89,7 @@
         "Prainha",
         "Santarém",
         "Terra Santa",
+        "Total",
         "Óbidos"
       ],
       "cor": "#fdaa48"
@@ -111,7 +114,8 @@
         "Salvaterra",
         "Santa Cruz do Arari",
         "Soure",
-        "São Sebastião da Boa Vista"
+        "São Sebastião da Boa Vista",
+        "Total"
       ],
       "cor": "#fc5a2d"
     },
@@ -166,6 +170,7 @@
         "Tailândia",
         "Terra Alta",
         "Tomé-Açu",
+        "Total",
         "Tracuateua",
         "Vigia",
         "Viseu"
@@ -187,7 +192,8 @@
         "Marituba",
         "Santa Bárbara do Pará",
         "Santa Izabel do Pará",
-        "Santo Antônio do Tauá"
+        "Santo Antônio do Tauá",
+        "Total"
       ],
       "cor": "#800026"
     }
@@ -267,6 +273,11 @@
       "apl_id": "Açaí-BaixoAmazonas-PA",
       "apl_label": "Baixo Amazonas",
       "idri": 2.34795
+    },
+    "Total": {
+      "apl_id": "Açaí-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 17.40936
     },
     "Afuá": {
       "apl_id": "Açaí-Marajó-PA",

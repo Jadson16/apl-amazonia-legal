@@ -1,0 +1,34 @@
+{
+  "estado": "PA",
+  "cadeia": "Borracha",
+  "apls": [
+    {
+      "id": "Borracha-MetropolitanadeBelém-PA",
+      "label": "Metropolitana de Belém",
+      "idri_medio": 0.9514,
+      "municipios": [
+        "Belém",
+        "Castanhal",
+        "Total"
+      ],
+      "cor": "#800026"
+    }
+  ],
+  "municipios": {
+    "Belém": {
+      "apl_id": "Borracha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 0.84286
+    },
+    "Castanhal": {
+      "apl_id": "Borracha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.05993
+    },
+    "Total": {
+      "apl_id": "Borracha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 0.95139
+    }
+  }
+}

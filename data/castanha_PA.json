@@ -1,0 +1,409 @@
+{
+  "estado": "PA",
+  "cadeia": "Castanha",
+  "apls": [
+    {
+      "id": "Castanha-Marajó-PA",
+      "label": "Marajó",
+      "idri_medio": 0.90466,
+      "municipios": [
+        "Anajás",
+        "Breves",
+        "Cachoeira do Arari",
+        "Total"
+      ],
+      "cor": "#ffffcc"
+    },
+    {
+      "id": "Castanha-SudesteParaense-PA",
+      "label": "Sudeste Paraense",
+      "idri_medio": 0.97897,
+      "municipios": [
+        "Canaã dos Carajás",
+        "Curionópolis",
+        "Eldorado do Carajás",
+        "Floresta do Araguaia",
+        "Itupiranga",
+        "Marabá",
+        "Paragominas",
+        "Parauapebas",
+        "Piçarra",
+        "São Domingos do Araguaia",
+        "São Félix do Xingu",
+        "São Geraldo do Araguaia",
+        "Total",
+        "Tucuruí",
+        "Xinguara"
+      ],
+      "cor": "#fee186"
+    },
+    {
+      "id": "Castanha-SudoesteParaense-PA",
+      "label": "Sudoeste Paraense",
+      "idri_medio": 1.57995,
+      "municipios": [
+        "Altamira",
+        "Anapu",
+        "Aveiro",
+        "Brasil Novo",
+        "Itaituba",
+        "Jacareacanga",
+        "Medicilândia",
+        "Novo Progresso",
+        "Pacajá",
+        "Rurópolis",
+        "Senador José Porfírio",
+        "Total",
+        "Trairão",
+        "Uruará",
+        "Vitória do Xingu"
+      ],
+      "cor": "#fdaa48"
+    },
+    {
+      "id": "Castanha-BaixoAmazonas-PA",
+      "label": "Baixo Amazonas",
+      "idri_medio": 1.81597,
+      "municipios": [
+        "Mojuí dos Campos",
+        "Oriximiná",
+        "Santarém",
+        "Total",
+        "Óbidos"
+      ],
+      "cor": "#fc5a2d"
+    },
+    {
+      "id": "Castanha-NordesteParaense-PA",
+      "label": "Nordeste Paraense",
+      "idri_medio": 3.27709,
+      "municipios": [
+        "Abaetetuba",
+        "Acará",
+        "Cametá",
+        "Capitão Poço",
+        "Curuçá",
+        "Igarapé-Miri",
+        "Mocajuba",
+        "Moju",
+        "Mãe do Rio",
+        "Santa Maria do Pará",
+        "São Francisco do Pará",
+        "Tomé-Açu",
+        "Total"
+      ],
+      "cor": "#d30f20"
+    },
+    {
+      "id": "Castanha-MetropolitanadeBelém-PA",
+      "label": "Metropolitana de Belém",
+      "idri_medio": 4.80566,
+      "municipios": [
+        "Ananindeua",
+        "Belém",
+        "Benevides",
+        "Bujaru",
+        "Castanhal",
+        "Inhangapi",
+        "Marituba",
+        "Santa Bárbara do Pará",
+        "Santa Izabel do Pará",
+        "Santo Antônio do Tauá",
+        "Total"
+      ],
+      "cor": "#800026"
+    }
+  ],
+  "municipios": {
+    "Mojuí dos Campos": {
+      "apl_id": "Castanha-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.28032
+    },
+    "Óbidos": {
+      "apl_id": "Castanha-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.64205
+    },
+    "Oriximiná": {
+      "apl_id": "Castanha-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.98516
+    },
+    "Santarém": {
+      "apl_id": "Castanha-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.35635
+    },
+    "Total": {
+      "apl_id": "Castanha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 4.80566
+    },
+    "Anajás": {
+      "apl_id": "Castanha-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.90957
+    },
+    "Breves": {
+      "apl_id": "Castanha-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.62338
+    },
+    "Cachoeira do Arari": {
+      "apl_id": "Castanha-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.18102
+    },
+    "Ananindeua": {
+      "apl_id": "Castanha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 24.43858
+    },
+    "Belém": {
+      "apl_id": "Castanha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.86858
+    },
+    "Benevides": {
+      "apl_id": "Castanha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 2.21687
+    },
+    "Bujaru": {
+      "apl_id": "Castanha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 0.23023
+    },
+    "Castanhal": {
+      "apl_id": "Castanha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 9.5441
+    },
+    "Inhangapi": {
+      "apl_id": "Castanha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 2.43336
+    },
+    "Marituba": {
+      "apl_id": "Castanha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.08787
+    },
+    "Santa Bárbara do Pará": {
+      "apl_id": "Castanha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 2.30927
+    },
+    "Santa Izabel do Pará": {
+      "apl_id": "Castanha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.00295
+    },
+    "Santo Antônio do Tauá": {
+      "apl_id": "Castanha-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 0.92478
+    },
+    "Abaetetuba": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.78619
+    },
+    "Acará": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.97028
+    },
+    "Cametá": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.49306
+    },
+    "Capitão Poço": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.17609
+    },
+    "Curuçá": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.46872
+    },
+    "Igarapé-Miri": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.24996
+    },
+    "Mãe do Rio": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.42932
+    },
+    "Mocajuba": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 7.78984
+    },
+    "Moju": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.66405
+    },
+    "Santa Maria do Pará": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.73261
+    },
+    "São Francisco do Pará": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.06035
+    },
+    "Tomé-Açu": {
+      "apl_id": "Castanha-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 20.50461
+    },
+    "Canaã dos Carajás": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.24663
+    },
+    "Curionópolis": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.82805
+    },
+    "Eldorado do Carajás": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.85592
+    },
+    "Floresta do Araguaia": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.68875
+    },
+    "Itupiranga": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.21557
+    },
+    "Marabá": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.0015
+    },
+    "Paragominas": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.17045
+    },
+    "Parauapebas": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.22176
+    },
+    "Piçarra": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.48637
+    },
+    "São Domingos do Araguaia": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.49413
+    },
+    "São Félix do Xingu": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.41607
+    },
+    "São Geraldo do Araguaia": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.48358
+    },
+    "Tucuruí": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.6787
+    },
+    "Xinguara": {
+      "apl_id": "Castanha-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.91804
+    },
+    "Altamira": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.5462
+    },
+    "Anapu": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.54715
+    },
+    "Aveiro": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.53647
+    },
+    "Brasil Novo": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.55509
+    },
+    "Itaituba": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.53428
+    },
+    "Jacareacanga": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.60371
+    },
+    "Medicilândia": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.58669
+    },
+    "Novo Progresso": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.86442
+    },
+    "Pacajá": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.5423
+    },
+    "Rurópolis": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.53438
+    },
+    "Senador José Porfírio": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.53536
+    },
+    "Trairão": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.53685
+    },
+    "Uruará": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.61157
+    },
+    "Vitória do Xingu": {
+      "apl_id": "Castanha-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.58481
+    }
+  }
+}
