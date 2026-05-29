@@ -350,22 +350,13 @@ function renderMap() {
   });
   currentAplMap = aplMap;
 
-  // Gradiente padrão: normaliza IDRI médio dos APLs entre si
-  const idrisMedios = currentData.apls.map(a => a.idri_medio);
-  const minApl = Math.min(...idrisMedios);
-  const maxApl = Math.max(...idrisMedios);
-  const rangeApl = maxApl - minApl || 1;
-  const aplT = {};  // label → t (0..1)
-  currentData.apls.forEach(a => { aplT[a.label] = (a.idri_medio - minApl) / rangeApl; });
-
-  // Camada coroplética — bordas internas finas
+  // Camada coroplética — cor sólida por APL (YlOrRd por IDRI médio, igual ao matplotlib)
   geojsonLayer = L.geoJSON(currentGeo, {
     style: feature => {
       const info = aplMap[norm(feature.properties.nome)];
-      if (!info) return { fillColor: '#c8c8c8', fillOpacity: 0.3, color: '#c8c8c8', weight: 0 };
-      const t = aplT[info.apl_label] ?? 0.5;
+      if (!info) return { fillColor: '#c8c8c8', fillOpacity: 0.45, color: '#c8c8c8', weight: 0 };
       return {
-        fillColor: lerpColor(info.cor, t),
+        fillColor: info.cor,
         fillOpacity: 0.88,
         color: info.cor,
         weight: 0,
@@ -527,9 +518,9 @@ function clearHighlight() {
   geojsonLayer.eachLayer(layer => {
     const info = currentAplMap[norm(layer.feature.properties.nome)];
     if (!info) {
-      layer.setStyle({ fillColor: '#c8c8c8', fillOpacity: 0.3 });
+      layer.setStyle({ fillColor: '#c8c8c8', fillOpacity: 0.45 });
     } else {
-      layer.setStyle({ fillColor: info.cor, fillOpacity: fillOpacity(info.idri) });
+      layer.setStyle({ fillColor: info.cor, fillOpacity: 0.88 });
     }
   });
 }

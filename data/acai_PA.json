@@ -5,7 +5,6 @@
     {
       "id": "Açaí-SudesteParaense-PA",
       "label": "Sudeste Paraense",
-      "cor": "#d4722a",
       "idri_medio": 0.7221,
       "municipios": [
         "Abel Figueiredo",
@@ -44,12 +43,12 @@
         "Ulianópolis",
         "Xinguara",
         "Água Azul do Norte"
-      ]
+      ],
+      "cor": "#ffffcc"
     },
     {
       "id": "Açaí-SudoesteParaense-PA",
       "label": "Sudoeste Paraense",
-      "cor": "#8b5e3c",
       "idri_medio": 0.77431,
       "municipios": [
         "Altamira",
@@ -66,12 +65,12 @@
         "Trairão",
         "Uruará",
         "Vitória do Xingu"
-      ]
+      ],
+      "cor": "#fee186"
     },
     {
       "id": "Açaí-BaixoAmazonas-PA",
       "label": "Baixo Amazonas",
-      "cor": "#1a6b3a",
       "idri_medio": 1.22415,
       "municipios": [
         "Alenquer",
@@ -89,12 +88,12 @@
         "Santarém",
         "Terra Santa",
         "Óbidos"
-      ]
+      ],
+      "cor": "#fdaa48"
     },
     {
       "id": "Açaí-Marajó-PA",
       "label": "Marajó",
-      "cor": "#2d9e5f",
       "idri_medio": 1.37904,
       "municipios": [
         "Afuá",
@@ -113,12 +112,12 @@
         "Santa Cruz do Arari",
         "Soure",
         "São Sebastião da Boa Vista"
-      ]
+      ],
+      "cor": "#fc5a2d"
     },
     {
       "id": "Açaí-NordesteParaense-PA",
       "label": "Nordeste Paraense",
-      "cor": "#c9a84c",
       "idri_medio": 4.34719,
       "municipios": [
         "Abaetetuba",
@@ -170,12 +169,12 @@
         "Tracuateua",
         "Vigia",
         "Viseu"
-      ]
+      ],
+      "cor": "#d30f20"
     },
     {
       "id": "Açaí-MetropolitanadeBelém-PA",
       "label": "Metropolitana de Belém",
-      "cor": "#52b788",
       "idri_medio": 17.40936,
       "municipios": [
         "Ananindeua",
@@ -189,7 +188,8 @@
         "Santa Bárbara do Pará",
         "Santa Izabel do Pará",
         "Santo Antônio do Tauá"
-      ]
+      ],
+      "cor": "#800026"
     }
   ],
   "municipios": {

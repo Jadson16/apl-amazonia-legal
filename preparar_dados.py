@@ -8,6 +8,7 @@ import unicodedata
 from pathlib import Path
 
 import geopandas as gpd
+import matplotlib.pyplot as plt
 import openpyxl
 import pandas as pd
 
@@ -31,16 +32,17 @@ APL_LABELS = {
     "SudoesteParaense":     "Sudoeste Paraense",
 }
 
-# Paleta fixa por APL (label → cor hex)
-APL_CORES = {
-    "Baixo Amazonas":          "#1a6b3a",
-    "Marajó":                  "#2d9e5f",
-    "Metropolitana de Belém":  "#52b788",
-    "Nordeste Paraense":       "#c9a84c",
-    "Sudeste Paraense":        "#d4722a",
-    "Sudoeste Paraense":       "#8b5e3c",
-}
-COR_PADRAO = "#aaaaaa"
+COR_FORA = "#c8c8c8"  # municípios fora de qualquer APL
+
+
+def ylOrRd_hex(n: int) -> list[str]:
+    """Retorna n cores hex da paleta YlOrRd do matplotlib, do mais claro ao mais escuro."""
+    cmap = plt.cm.get_cmap("YlOrRd", n)
+    cores = []
+    for i in range(n):
+        r, g, b, _ = cmap(i)
+        cores.append("#{:02x}{:02x}{:02x}".format(int(r*255), int(g*255), int(b*255)))
+    return cores
 
 
 def norm(s: str) -> str:
@@ -86,18 +88,22 @@ for sheet_name in wb.sheetnames:
     estado = df["apl"].iloc[0].split("-")[-1] if not df.empty else "PA"
     cadeia = df["cadeia"].iloc[0] if not df.empty else sheet_name
 
-    # Montar estrutura de APLs
+    # Montar estrutura de APLs (sem cor ainda — atribuída após ordenar por IDRI)
     apls_out = []
     for apl_raw, grupo in df.groupby("apl"):
         label = apl_label(apl_raw)
         apls_out.append({
             "id": apl_raw,
             "label": label,
-            "cor": APL_CORES.get(label, COR_PADRAO),
             "idri_medio": round(idri_medio[apl_raw], 5),
             "municipios": sorted(grupo["municipio"].unique().tolist()),
         })
     apls_out.sort(key=lambda x: x["idri_medio"])
+
+    # Atribui cores YlOrRd na ordem crescente de IDRI (igual ao matplotlib)
+    cores = ylOrRd_hex(len(apls_out))
+    for i, apl in enumerate(apls_out):
+        apl["cor"] = cores[i]
 
     # Montar dicionário por município
     muns_out = {}
