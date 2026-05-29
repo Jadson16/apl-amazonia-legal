@@ -11,8 +11,7 @@
         "Aveiro",
         "Jacareacanga",
         "Medicilândia",
-        "Novo Progresso",
-        "Total"
+        "Novo Progresso"
       ],
       "cor": "#ffffcc"
     },
@@ -23,8 +22,7 @@
       "municipios": [
         "Anajás",
         "Breves",
-        "Cachoeira do Arari",
-        "Total"
+        "Cachoeira do Arari"
       ],
       "cor": "#fee186"
     },
@@ -45,7 +43,6 @@
         "Parauapebas",
         "São Domingos do Araguaia",
         "São Félix do Xingu",
-        "Total",
         "Tucuruí",
         "Xinguara"
       ],
@@ -60,7 +57,6 @@
         "Mojuí dos Campos",
         "Oriximiná",
         "Santarém",
-        "Total",
         "Óbidos"
       ],
       "cor": "#fc5a2d"
@@ -86,7 +82,6 @@
         "Santa Maria do Pará",
         "São Francisco do Pará",
         "Tomé-Açu",
-        "Total",
         "Viseu"
       ],
       "cor": "#d30f20"
@@ -104,282 +99,276 @@
         "Marituba",
         "Santa Bárbara do Pará",
         "Santa Izabel do Pará",
-        "Santo Antônio do Tauá",
-        "Total"
+        "Santo Antônio do Tauá"
       ],
       "cor": "#800026"
     }
   ],
   "municipios": {
-    "Faro": {
-      "apl_id": "Tucumã-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.46954
-    },
-    "Mojuí dos Campos": {
-      "apl_id": "Tucumã-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.27959
-    },
-    "Óbidos": {
-      "apl_id": "Tucumã-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 2.61568
-    },
-    "Oriximiná": {
-      "apl_id": "Tucumã-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.96968
-    },
-    "Santarém": {
-      "apl_id": "Tucumã-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.35602
-    },
-    "Total": {
-      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 6.87123
-    },
-    "Anajás": {
-      "apl_id": "Tucumã-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.90957
-    },
-    "Breves": {
-      "apl_id": "Tucumã-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.62338
-    },
-    "Cachoeira do Arari": {
-      "apl_id": "Tucumã-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 1.18102
-    },
-    "Ananindeua": {
-      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 24.55289
-    },
-    "Belém": {
-      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.87805
-    },
-    "Benevides": {
-      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.92294
-    },
-    "Castanhal": {
-      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 9.56998
-    },
-    "Inhangapi": {
-      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.96744
-    },
-    "Marituba": {
-      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.88428
-    },
-    "Santa Bárbara do Pará": {
-      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 4.15242
-    },
-    "Santa Izabel do Pará": {
-      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 4.02832
-    },
-    "Santo Antônio do Tauá": {
-      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.88473
-    },
-    "Abaetetuba": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.78515
-    },
-    "Acará": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.98043
-    },
-    "Cametá": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87925
-    },
-    "Capitão Poço": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.17609
-    },
-    "Concórdia do Pará": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87891
-    },
-    "Curuçá": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.46872
-    },
-    "Igarapé-Açu": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87888
-    },
-    "Igarapé-Miri": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 2.49247
-    },
-    "Mãe do Rio": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87794
-    },
-    "Maracanã": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87889
-    },
-    "Mocajuba": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 7.79024
-    },
-    "Moju": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87794
-    },
-    "Oeiras do Pará": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87894
-    },
-    "Santa Maria do Pará": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87794
-    },
-    "São Francisco do Pará": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.06035
-    },
-    "Tomé-Açu": {
-      "apl_id": "Tucumã-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 2.79924
+    "Xinguara": {
+      "apl_id": "Tucumã-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.91804
     },
     "Viseu": {
       "apl_id": "Tucumã-NordesteParaense-PA",
       "apl_label": "Nordeste Paraense",
       "idri": 0.87888
     },
-    "Canaã dos Carajás": {
+    "Tucuruí": {
       "apl_id": "Tucumã-SudesteParaense-PA",
       "apl_label": "Sudeste Paraense",
-      "idri": 1.24599
+      "idri": 0.87705
     },
-    "Conceição do Araguaia": {
-      "apl_id": "Tucumã-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.97955
+    "Tomé-Açu": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.79924
     },
-    "Curionópolis": {
-      "apl_id": "Tucumã-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.82748
-    },
-    "Dom Eliseu": {
-      "apl_id": "Tucumã-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.11088
-    },
-    "Eldorado do Carajás": {
-      "apl_id": "Tucumã-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.85509
-    },
-    "Floresta do Araguaia": {
-      "apl_id": "Tucumã-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.68875
-    },
-    "Itupiranga": {
-      "apl_id": "Tucumã-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.21444
-    },
-    "Marabá": {
-      "apl_id": "Tucumã-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.98145
-    },
-    "Paragominas": {
-      "apl_id": "Tucumã-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.17045
-    },
-    "Parauapebas": {
-      "apl_id": "Tucumã-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.19558
-    },
-    "São Domingos do Araguaia": {
-      "apl_id": "Tucumã-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.49343
+    "São Francisco do Pará": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.06035
     },
     "São Félix do Xingu": {
       "apl_id": "Tucumã-SudesteParaense-PA",
       "apl_label": "Sudeste Paraense",
       "idri": 1.41417
     },
-    "Tucuruí": {
+    "São Domingos do Araguaia": {
       "apl_id": "Tucumã-SudesteParaense-PA",
       "apl_label": "Sudeste Paraense",
-      "idri": 0.87705
+      "idri": 1.49343
     },
-    "Xinguara": {
+    "Santo Antônio do Tauá": {
+      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.88473
+    },
+    "Santarém": {
+      "apl_id": "Tucumã-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.35602
+    },
+    "Santa Maria do Pará": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
+    },
+    "Santa Izabel do Pará": {
+      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 4.02832
+    },
+    "Santa Bárbara do Pará": {
+      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 4.15242
+    },
+    "Parauapebas": {
       "apl_id": "Tucumã-SudesteParaense-PA",
       "apl_label": "Sudeste Paraense",
-      "idri": 0.91804
+      "idri": 1.19558
     },
-    "Altamira": {
+    "Paragominas": {
+      "apl_id": "Tucumã-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.17045
+    },
+    "Oriximiná": {
+      "apl_id": "Tucumã-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.96968
+    },
+    "Oeiras do Pará": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87894
+    },
+    "Óbidos": {
+      "apl_id": "Tucumã-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.61568
+    },
+    "Novo Progresso": {
       "apl_id": "Tucumã-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
-      "idri": 1.38982
+      "idri": 1.69487
     },
-    "Aveiro": {
-      "apl_id": "Tucumã-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.24353
+    "Mojuí dos Campos": {
+      "apl_id": "Tucumã-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.27959
     },
-    "Jacareacanga": {
-      "apl_id": "Tucumã-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.72752
+    "Moju": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
+    },
+    "Mocajuba": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 7.79024
     },
     "Medicilândia": {
       "apl_id": "Tucumã-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
       "idri": 0.12211
     },
-    "Novo Progresso": {
+    "Marituba": {
+      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.88428
+    },
+    "Maracanã": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87889
+    },
+    "Marabá": {
+      "apl_id": "Tucumã-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.98145
+    },
+    "Mãe do Rio": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
+    },
+    "Jacareacanga": {
       "apl_id": "Tucumã-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
-      "idri": 1.69487
+      "idri": 0.72752
+    },
+    "Itupiranga": {
+      "apl_id": "Tucumã-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.21444
+    },
+    "Inhangapi": {
+      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.96744
+    },
+    "Igarapé-Miri": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.49247
+    },
+    "Igarapé-Açu": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87888
+    },
+    "Floresta do Araguaia": {
+      "apl_id": "Tucumã-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.68875
+    },
+    "Faro": {
+      "apl_id": "Tucumã-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.46954
+    },
+    "Eldorado do Carajás": {
+      "apl_id": "Tucumã-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.85509
+    },
+    "Dom Eliseu": {
+      "apl_id": "Tucumã-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.11088
+    },
+    "Curuçá": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.46872
+    },
+    "Curionópolis": {
+      "apl_id": "Tucumã-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.82748
+    },
+    "Concórdia do Pará": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87891
+    },
+    "Conceição do Araguaia": {
+      "apl_id": "Tucumã-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.97955
+    },
+    "Castanhal": {
+      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 9.56998
+    },
+    "Capitão Poço": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.17609
+    },
+    "Canaã dos Carajás": {
+      "apl_id": "Tucumã-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.24599
+    },
+    "Cametá": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87925
+    },
+    "Cachoeira do Arari": {
+      "apl_id": "Tucumã-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.18102
+    },
+    "Breves": {
+      "apl_id": "Tucumã-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.62338
+    },
+    "Benevides": {
+      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.92294
+    },
+    "Belém": {
+      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.87805
+    },
+    "Aveiro": {
+      "apl_id": "Tucumã-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.24353
+    },
+    "Ananindeua": {
+      "apl_id": "Tucumã-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 24.55289
+    },
+    "Anajás": {
+      "apl_id": "Tucumã-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.90957
+    },
+    "Altamira": {
+      "apl_id": "Tucumã-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.38982
+    },
+    "Acará": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.98043
+    },
+    "Abaetetuba": {
+      "apl_id": "Tucumã-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.78515
     }
   }
 }

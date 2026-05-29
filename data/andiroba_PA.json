@@ -9,8 +9,7 @@
       "municipios": [
         "Marituba",
         "Santa Bárbara do Pará",
-        "Santo Antônio do Tauá",
-        "Total"
+        "Santo Antônio do Tauá"
       ],
       "cor": "#ffffcc"
     },
@@ -25,7 +24,6 @@
         "Oriximiná",
         "Placas",
         "Santarém",
-        "Total",
         "Óbidos"
       ],
       "cor": "#fee186"
@@ -40,7 +38,6 @@
         "Itaituba",
         "Medicilândia",
         "Pacajá",
-        "Total",
         "Vitória do Xingu"
       ],
       "cor": "#fdaa48"
@@ -55,7 +52,6 @@
         "Jacundá",
         "Novo Repartimento",
         "Santana do Araguaia",
-        "Total",
         "Xinguara"
       ],
       "cor": "#fc5a2d"
@@ -67,8 +63,7 @@
       "municipios": [
         "Melgaço",
         "Muaná",
-        "Portel",
-        "Total"
+        "Portel"
       ],
       "cor": "#d30f20"
     },
@@ -92,222 +87,216 @@
         "Santa Maria do Pará",
         "São Caetano de Odivelas",
         "Tomé-Açu",
-        "Total",
         "Tracuateua"
       ],
       "cor": "#800026"
     }
   ],
   "municipios": {
-    "Belterra": {
-      "apl_id": "Andiroba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16395
+    "Xinguara": {
+      "apl_id": "Andiroba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.21699
     },
-    "Curuá": {
-      "apl_id": "Andiroba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16266
-    },
-    "Mojuí dos Campos": {
-      "apl_id": "Andiroba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16266
-    },
-    "Óbidos": {
-      "apl_id": "Andiroba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16359
-    },
-    "Oriximiná": {
-      "apl_id": "Andiroba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16369
-    },
-    "Placas": {
-      "apl_id": "Andiroba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16362
-    },
-    "Santarém": {
-      "apl_id": "Andiroba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16266
-    },
-    "Total": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.64136
-    },
-    "Melgaço": {
-      "apl_id": "Andiroba-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.37833
-    },
-    "Muaná": {
-      "apl_id": "Andiroba-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 6.37227
-    },
-    "Portel": {
-      "apl_id": "Andiroba-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 2.96688
-    },
-    "Marituba": {
-      "apl_id": "Andiroba-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 1.09294
-    },
-    "Santa Bárbara do Pará": {
-      "apl_id": "Andiroba-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 1.13715
-    },
-    "Santo Antônio do Tauá": {
-      "apl_id": "Andiroba-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 1.09294
-    },
-    "Abaetetuba": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.59894
-    },
-    "Augusto Corrêa": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.59794
-    },
-    "Cametá": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.60048
-    },
-    "Colares": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.59888
-    },
-    "Igarapé-Açu": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 6.02189
-    },
-    "Irituia": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.59925
-    },
-    "Maracanã": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.59888
-    },
-    "Marapanim": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.59794
-    },
-    "Mocajuba": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.59905
-    },
-    "Oeiras do Pará": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.59888
-    },
-    "Peixe-Boi": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.67362
-    },
-    "Primavera": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.70779
-    },
-    "Santa Maria do Pará": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.61258
-    },
-    "São Caetano de Odivelas": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.59891
-    },
-    "Tomé-Açu": {
-      "apl_id": "Andiroba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.6579
+    "Vitória do Xingu": {
+      "apl_id": "Andiroba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.39616
     },
     "Tracuateua": {
       "apl_id": "Andiroba-NordesteParaense-PA",
       "apl_label": "Nordeste Paraense",
       "idri": 5.59888
     },
-    "Cumaru do Norte": {
-      "apl_id": "Andiroba-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.21699
+    "Tomé-Açu": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.6579
     },
-    "Floresta do Araguaia": {
-      "apl_id": "Andiroba-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.21699
+    "São Caetano de Odivelas": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.59891
     },
-    "Jacundá": {
-      "apl_id": "Andiroba-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.21699
+    "Santo Antônio do Tauá": {
+      "apl_id": "Andiroba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.09294
     },
-    "Novo Repartimento": {
-      "apl_id": "Andiroba-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.23066
+    "Santarém": {
+      "apl_id": "Andiroba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16266
     },
     "Santana do Araguaia": {
       "apl_id": "Andiroba-SudesteParaense-PA",
       "apl_label": "Sudeste Paraense",
       "idri": 1.21699
     },
-    "Xinguara": {
-      "apl_id": "Andiroba-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.21699
+    "Santa Maria do Pará": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.61258
     },
-    "Altamira": {
-      "apl_id": "Andiroba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.40132
+    "Santa Bárbara do Pará": {
+      "apl_id": "Andiroba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.13715
     },
-    "Anapu": {
-      "apl_id": "Andiroba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 2.20416
+    "Primavera": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.70779
     },
-    "Itaituba": {
-      "apl_id": "Andiroba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 3.35056
+    "Portel": {
+      "apl_id": "Andiroba-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 2.96688
     },
-    "Medicilândia": {
-      "apl_id": "Andiroba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.39616
+    "Placas": {
+      "apl_id": "Andiroba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16362
+    },
+    "Peixe-Boi": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.67362
     },
     "Pacajá": {
       "apl_id": "Andiroba-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
       "idri": 0.39616
     },
-    "Vitória do Xingu": {
+    "Oriximiná": {
+      "apl_id": "Andiroba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16369
+    },
+    "Oeiras do Pará": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.59888
+    },
+    "Óbidos": {
+      "apl_id": "Andiroba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16359
+    },
+    "Novo Repartimento": {
+      "apl_id": "Andiroba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.23066
+    },
+    "Muaná": {
+      "apl_id": "Andiroba-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 6.37227
+    },
+    "Mojuí dos Campos": {
+      "apl_id": "Andiroba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16266
+    },
+    "Mocajuba": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.59905
+    },
+    "Melgaço": {
+      "apl_id": "Andiroba-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.37833
+    },
+    "Medicilândia": {
       "apl_id": "Andiroba-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
       "idri": 0.39616
+    },
+    "Marituba": {
+      "apl_id": "Andiroba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.09294
+    },
+    "Marapanim": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.59794
+    },
+    "Maracanã": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.59888
+    },
+    "Jacundá": {
+      "apl_id": "Andiroba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.21699
+    },
+    "Itaituba": {
+      "apl_id": "Andiroba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 3.35056
+    },
+    "Irituia": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.59925
+    },
+    "Igarapé-Açu": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 6.02189
+    },
+    "Floresta do Araguaia": {
+      "apl_id": "Andiroba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.21699
+    },
+    "Curuá": {
+      "apl_id": "Andiroba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16266
+    },
+    "Cumaru do Norte": {
+      "apl_id": "Andiroba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.21699
+    },
+    "Colares": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.59888
+    },
+    "Cametá": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.60048
+    },
+    "Belterra": {
+      "apl_id": "Andiroba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16395
+    },
+    "Augusto Corrêa": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.59794
+    },
+    "Anapu": {
+      "apl_id": "Andiroba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 2.20416
+    },
+    "Altamira": {
+      "apl_id": "Andiroba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.40132
+    },
+    "Abaetetuba": {
+      "apl_id": "Andiroba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.59894
     }
   }
 }

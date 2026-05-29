@@ -5,30 +5,24 @@
     {
       "id": "Borracha-MetropolitanadeBelém-PA",
       "label": "Metropolitana de Belém",
-      "idri_medio": 0.9514,
+      "idri_medio": 0.95139,
       "municipios": [
         "Belém",
-        "Castanhal",
-        "Total"
+        "Castanhal"
       ],
       "cor": "#800026"
     }
   ],
   "municipios": {
-    "Belém": {
-      "apl_id": "Borracha-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 0.84286
-    },
     "Castanhal": {
       "apl_id": "Borracha-MetropolitanadeBelém-PA",
       "apl_label": "Metropolitana de Belém",
       "idri": 1.05993
     },
-    "Total": {
+    "Belém": {
       "apl_id": "Borracha-MetropolitanadeBelém-PA",
       "apl_label": "Metropolitana de Belém",
-      "idri": 0.95139
+      "idri": 0.84286
     }
   }
 }

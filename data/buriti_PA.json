@@ -11,8 +11,7 @@
         "Aveiro",
         "Jacareacanga",
         "Medicilândia",
-        "Novo Progresso",
-        "Total"
+        "Novo Progresso"
       ],
       "cor": "#ffffcc"
     },
@@ -23,8 +22,7 @@
       "municipios": [
         "Anajás",
         "Breves",
-        "Cachoeira do Arari",
-        "Total"
+        "Cachoeira do Arari"
       ],
       "cor": "#fee186"
     },
@@ -46,7 +44,6 @@
         "Parauapebas",
         "São Domingos do Araguaia",
         "São Félix do Xingu",
-        "Total",
         "Tucuruí",
         "Xinguara"
       ],
@@ -62,7 +59,6 @@
         "Oriximiná",
         "Placas",
         "Santarém",
-        "Total",
         "Óbidos"
       ],
       "cor": "#fc5a2d"
@@ -89,7 +85,6 @@
         "Santa Maria do Pará",
         "São Francisco do Pará",
         "Tomé-Açu",
-        "Total",
         "Tracuateua",
         "Viseu"
       ],
@@ -109,164 +104,123 @@
         "Marituba",
         "Santa Bárbara do Pará",
         "Santa Izabel do Pará",
-        "Santo Antônio do Tauá",
-        "Total"
+        "Santo Antônio do Tauá"
       ],
       "cor": "#800026"
     }
   ],
   "municipios": {
-    "Faro": {
-      "apl_id": "Buriti-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.46413
+    "Xinguara": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.91804
     },
-    "Mojuí dos Campos": {
-      "apl_id": "Buriti-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.27959
+    "Viseu": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
     },
-    "Óbidos": {
-      "apl_id": "Buriti-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 2.61568
+    "Tucuruí": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.87705
     },
-    "Oriximiná": {
-      "apl_id": "Buriti-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.96968
+    "Tracuateua": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88325
     },
-    "Placas": {
-      "apl_id": "Buriti-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.35985
+    "Tomé-Açu": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.79924
     },
-    "Santarém": {
-      "apl_id": "Buriti-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.35602
+    "São Francisco do Pará": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.06035
     },
-    "Total": {
-      "apl_id": "Buriti-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 6.56707
+    "São Félix do Xingu": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.41417
     },
-    "Anajás": {
-      "apl_id": "Buriti-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.90957
-    },
-    "Breves": {
-      "apl_id": "Buriti-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.62338
-    },
-    "Cachoeira do Arari": {
-      "apl_id": "Buriti-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 1.18102
-    },
-    "Ananindeua": {
-      "apl_id": "Buriti-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 24.55289
-    },
-    "Barcarena": {
-      "apl_id": "Buriti-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.8297
-    },
-    "Belém": {
-      "apl_id": "Buriti-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.87805
-    },
-    "Benevides": {
-      "apl_id": "Buriti-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.92294
-    },
-    "Castanhal": {
-      "apl_id": "Buriti-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 9.56998
-    },
-    "Inhangapi": {
-      "apl_id": "Buriti-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.96744
-    },
-    "Marituba": {
-      "apl_id": "Buriti-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.88428
-    },
-    "Santa Bárbara do Pará": {
-      "apl_id": "Buriti-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 4.15242
-    },
-    "Santa Izabel do Pará": {
-      "apl_id": "Buriti-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 4.02832
+    "São Domingos do Araguaia": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.49343
     },
     "Santo Antônio do Tauá": {
       "apl_id": "Buriti-MetropolitanadeBelém-PA",
       "apl_label": "Metropolitana de Belém",
       "idri": 3.88473
     },
-    "Abaetetuba": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.78606
+    "Santarém": {
+      "apl_id": "Buriti-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.35602
     },
-    "Acará": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.98043
-    },
-    "Augusto Corrêa": {
+    "Santa Maria do Pará": {
       "apl_id": "Buriti-NordesteParaense-PA",
       "apl_label": "Nordeste Paraense",
       "idri": 0.87794
     },
-    "Bragança": {
+    "Santa Izabel do Pará": {
+      "apl_id": "Buriti-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 4.02832
+    },
+    "Santa Bárbara do Pará": {
+      "apl_id": "Buriti-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 4.15242
+    },
+    "Placas": {
+      "apl_id": "Buriti-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.35985
+    },
+    "Parauapebas": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.19558
+    },
+    "Paragominas": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.17045
+    },
+    "Palestina do Pará": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.23475
+    },
+    "Oriximiná": {
+      "apl_id": "Buriti-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.96968
+    },
+    "Oeiras do Pará": {
       "apl_id": "Buriti-NordesteParaense-PA",
       "apl_label": "Nordeste Paraense",
-      "idri": 0.87794
+      "idri": 0.87985
     },
-    "Cametá": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87939
+    "Óbidos": {
+      "apl_id": "Buriti-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.61568
     },
-    "Capitão Poço": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.17609
+    "Novo Progresso": {
+      "apl_id": "Buriti-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.69487
     },
-    "Concórdia do Pará": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87794
+    "Mojuí dos Campos": {
+      "apl_id": "Buriti-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.27959
     },
-    "Curuçá": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.46872
-    },
-    "Igarapé-Açu": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87794
-    },
-    "Igarapé-Miri": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 2.49503
-    },
-    "Mãe do Rio": {
+    "Moju": {
       "apl_id": "Buriti-NordesteParaense-PA",
       "apl_label": "Nordeste Paraense",
       "idri": 0.87794
@@ -276,140 +230,175 @@
       "apl_label": "Nordeste Paraense",
       "idri": 7.78984
     },
-    "Moju": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87794
+    "Medicilândia": {
+      "apl_id": "Buriti-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.10217
     },
-    "Oeiras do Pará": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87985
-    },
-    "Santa Maria do Pará": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87794
-    },
-    "São Francisco do Pará": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.06035
-    },
-    "Tomé-Açu": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 2.79924
-    },
-    "Tracuateua": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.88325
-    },
-    "Viseu": {
-      "apl_id": "Buriti-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87794
-    },
-    "Canaã dos Carajás": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.24599
-    },
-    "Conceição do Araguaia": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.97955
-    },
-    "Curionópolis": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.82748
-    },
-    "Dom Eliseu": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.11088
-    },
-    "Eldorado do Carajás": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.85509
-    },
-    "Floresta do Araguaia": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.68875
-    },
-    "Itupiranga": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.21444
+    "Marituba": {
+      "apl_id": "Buriti-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.88428
     },
     "Marabá": {
       "apl_id": "Buriti-SudesteParaense-PA",
       "apl_label": "Sudeste Paraense",
       "idri": 0.98145
     },
-    "Palestina do Pará": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.23475
-    },
-    "Paragominas": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.17045
-    },
-    "Parauapebas": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.19558
-    },
-    "São Domingos do Araguaia": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.49343
-    },
-    "São Félix do Xingu": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.41417
-    },
-    "Tucuruí": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.87705
-    },
-    "Xinguara": {
-      "apl_id": "Buriti-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.91804
-    },
-    "Altamira": {
-      "apl_id": "Buriti-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 1.38982
-    },
-    "Aveiro": {
-      "apl_id": "Buriti-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.25636
+    "Mãe do Rio": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
     },
     "Jacareacanga": {
       "apl_id": "Buriti-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
       "idri": 0.72752
     },
-    "Medicilândia": {
-      "apl_id": "Buriti-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.10217
+    "Itupiranga": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.21444
     },
-    "Novo Progresso": {
+    "Inhangapi": {
+      "apl_id": "Buriti-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.96744
+    },
+    "Igarapé-Miri": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.49503
+    },
+    "Igarapé-Açu": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
+    },
+    "Floresta do Araguaia": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.68875
+    },
+    "Faro": {
+      "apl_id": "Buriti-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.46413
+    },
+    "Eldorado do Carajás": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.85509
+    },
+    "Dom Eliseu": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.11088
+    },
+    "Curuçá": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.46872
+    },
+    "Curionópolis": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.82748
+    },
+    "Concórdia do Pará": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
+    },
+    "Conceição do Araguaia": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.97955
+    },
+    "Castanhal": {
+      "apl_id": "Buriti-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 9.56998
+    },
+    "Capitão Poço": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.17609
+    },
+    "Canaã dos Carajás": {
+      "apl_id": "Buriti-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.24599
+    },
+    "Cametá": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87939
+    },
+    "Cachoeira do Arari": {
+      "apl_id": "Buriti-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.18102
+    },
+    "Breves": {
+      "apl_id": "Buriti-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.62338
+    },
+    "Bragança": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
+    },
+    "Benevides": {
+      "apl_id": "Buriti-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.92294
+    },
+    "Belém": {
+      "apl_id": "Buriti-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.87805
+    },
+    "Barcarena": {
+      "apl_id": "Buriti-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.8297
+    },
+    "Aveiro": {
       "apl_id": "Buriti-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
-      "idri": 1.69487
+      "idri": 0.25636
+    },
+    "Augusto Corrêa": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87794
+    },
+    "Ananindeua": {
+      "apl_id": "Buriti-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 24.55289
+    },
+    "Anajás": {
+      "apl_id": "Buriti-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.90957
+    },
+    "Altamira": {
+      "apl_id": "Buriti-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.38982
+    },
+    "Acará": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.98043
+    },
+    "Abaetetuba": {
+      "apl_id": "Buriti-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.78606
     }
   }
 }

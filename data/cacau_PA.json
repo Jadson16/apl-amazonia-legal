@@ -5,11 +5,10 @@
     {
       "id": "Cacau-NordesteParaense-PA",
       "label": "Nordeste Paraense",
-      "idri_medio": 0.52759,
+      "idri_medio": 0.5276,
       "municipios": [
         "Cametá",
-        "Tomé-Açu",
-        "Total"
+        "Tomé-Açu"
       ],
       "cor": "#ffffcc"
     },
@@ -25,8 +24,7 @@
         "Castanhal",
         "Inhangapi",
         "Santa Bárbara do Pará",
-        "Santa Izabel do Pará",
-        "Total"
+        "Santa Izabel do Pará"
       ],
       "cor": "#fed976"
     },
@@ -40,7 +38,6 @@
         "Redenção",
         "São Félix do Xingu",
         "São Geraldo do Araguaia",
-        "Total",
         "Tucumã",
         "Xinguara"
       ],
@@ -62,7 +59,6 @@
         "Pacajá",
         "Rurópolis",
         "Senador José Porfírio",
-        "Total",
         "Trairão",
         "Uruará",
         "Vitória do Xingu"
@@ -74,177 +70,171 @@
       "label": "Baixo Amazonas",
       "idri_medio": 4.53163,
       "municipios": [
-        "Placas",
-        "Total"
+        "Placas"
       ],
       "cor": "#800026"
     }
   ],
   "municipios": {
-    "Placas": {
-      "apl_id": "Cacau-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 4.53163
-    },
-    "Total": {
-      "apl_id": "Cacau-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 4.53163
-    },
-    "Ananindeua": {
-      "apl_id": "Cacau-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 0.94891
-    },
-    "Barcarena": {
-      "apl_id": "Cacau-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 0.77117
-    },
-    "Belém": {
-      "apl_id": "Cacau-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 1.58002
-    },
-    "Benevides": {
-      "apl_id": "Cacau-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 0.37505
-    },
-    "Castanhal": {
-      "apl_id": "Cacau-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 0.3121
-    },
-    "Inhangapi": {
-      "apl_id": "Cacau-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 0.27513
-    },
-    "Santa Bárbara do Pará": {
-      "apl_id": "Cacau-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 1.311
-    },
-    "Santa Izabel do Pará": {
-      "apl_id": "Cacau-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 0.27361
-    },
-    "Cametá": {
-      "apl_id": "Cacau-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.44001
-    },
-    "Tomé-Açu": {
-      "apl_id": "Cacau-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.61518
-    },
-    "Novo Repartimento": {
-      "apl_id": "Cacau-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.78578
-    },
-    "Pau D'Arco": {
-      "apl_id": "Cacau-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.47908
-    },
-    "Redenção": {
-      "apl_id": "Cacau-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.37217
-    },
-    "São Félix do Xingu": {
-      "apl_id": "Cacau-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.0987
-    },
-    "São Geraldo do Araguaia": {
-      "apl_id": "Cacau-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.84199
-    },
-    "Tucumã": {
-      "apl_id": "Cacau-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.87143
-    },
     "Xinguara": {
       "apl_id": "Cacau-SudesteParaense-PA",
       "apl_label": "Sudeste Paraense",
       "idri": 0.51207
     },
-    "Altamira": {
+    "Vitória do Xingu": {
       "apl_id": "Cacau-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
-      "idri": 3.87343
-    },
-    "Anapu": {
-      "apl_id": "Cacau-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 5.31907
-    },
-    "Aveiro": {
-      "apl_id": "Cacau-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 1.58171
-    },
-    "Brasil Novo": {
-      "apl_id": "Cacau-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 3.67704
-    },
-    "Itaituba": {
-      "apl_id": "Cacau-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 1.56085
-    },
-    "Jacareacanga": {
-      "apl_id": "Cacau-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 1.53791
-    },
-    "Medicilândia": {
-      "apl_id": "Cacau-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 20.38702
-    },
-    "Novo Progresso": {
-      "apl_id": "Cacau-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 1.5376
-    },
-    "Pacajá": {
-      "apl_id": "Cacau-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 3.32469
-    },
-    "Rurópolis": {
-      "apl_id": "Cacau-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 1.89403
-    },
-    "Senador José Porfírio": {
-      "apl_id": "Cacau-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 3.35859
-    },
-    "Trairão": {
-      "apl_id": "Cacau-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 1.64953
+      "idri": 2.64113
     },
     "Uruará": {
       "apl_id": "Cacau-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
       "idri": 9.8412
     },
-    "Vitória do Xingu": {
+    "Tucumã": {
+      "apl_id": "Cacau-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.87143
+    },
+    "Trairão": {
       "apl_id": "Cacau-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
-      "idri": 2.64113
+      "idri": 1.64953
+    },
+    "Tomé-Açu": {
+      "apl_id": "Cacau-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.61518
+    },
+    "Senador José Porfírio": {
+      "apl_id": "Cacau-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 3.35859
+    },
+    "São Geraldo do Araguaia": {
+      "apl_id": "Cacau-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.84199
+    },
+    "São Félix do Xingu": {
+      "apl_id": "Cacau-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.0987
+    },
+    "Santa Izabel do Pará": {
+      "apl_id": "Cacau-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 0.27361
+    },
+    "Santa Bárbara do Pará": {
+      "apl_id": "Cacau-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.311
+    },
+    "Rurópolis": {
+      "apl_id": "Cacau-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.89403
+    },
+    "Redenção": {
+      "apl_id": "Cacau-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.37217
+    },
+    "Placas": {
+      "apl_id": "Cacau-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 4.53163
+    },
+    "Pau D'Arco": {
+      "apl_id": "Cacau-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.47908
+    },
+    "Pacajá": {
+      "apl_id": "Cacau-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 3.32469
+    },
+    "Novo Repartimento": {
+      "apl_id": "Cacau-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.78578
+    },
+    "Novo Progresso": {
+      "apl_id": "Cacau-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.5376
+    },
+    "Medicilândia": {
+      "apl_id": "Cacau-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 20.38702
+    },
+    "Jacareacanga": {
+      "apl_id": "Cacau-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.53791
+    },
+    "Itaituba": {
+      "apl_id": "Cacau-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.56085
+    },
+    "Inhangapi": {
+      "apl_id": "Cacau-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 0.27513
+    },
+    "Castanhal": {
+      "apl_id": "Cacau-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 0.3121
+    },
+    "Cametá": {
+      "apl_id": "Cacau-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.44001
+    },
+    "Brasil Novo": {
+      "apl_id": "Cacau-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 3.67704
+    },
+    "Benevides": {
+      "apl_id": "Cacau-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 0.37505
+    },
+    "Belém": {
+      "apl_id": "Cacau-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.58002
+    },
+    "Barcarena": {
+      "apl_id": "Cacau-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 0.77117
+    },
+    "Aveiro": {
+      "apl_id": "Cacau-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.58171
+    },
+    "Anapu": {
+      "apl_id": "Cacau-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 5.31907
+    },
+    "Ananindeua": {
+      "apl_id": "Cacau-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 0.94891
+    },
+    "Altamira": {
+      "apl_id": "Cacau-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 3.87343
     }
   }
 }

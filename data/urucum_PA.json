@@ -12,7 +12,6 @@
         "Aveiro",
         "Pacajá",
         "Rurópolis",
-        "Total",
         "Uruará",
         "Vitória do Xingu"
       ],
@@ -30,7 +29,6 @@
         "Placas",
         "Prainha",
         "Santarém",
-        "Total",
         "Óbidos"
       ],
       "cor": "#fed976"
@@ -48,7 +46,6 @@
         "Pau D'Arco",
         "Redenção",
         "Rio Maria",
-        "Total",
         "Tucuruí",
         "Ulianópolis"
       ],
@@ -71,8 +68,7 @@
         "São Domingos do Capim",
         "São Francisco do Pará",
         "São Miguel do Guamá",
-        "Terra Alta",
-        "Total"
+        "Terra Alta"
       ],
       "cor": "#e31a1c"
     },
@@ -86,237 +82,231 @@
         "Benevides",
         "Castanhal",
         "Inhangapi",
-        "Santa Izabel do Pará",
-        "Total"
+        "Santa Izabel do Pará"
       ],
       "cor": "#800026"
     }
   ],
   "municipios": {
-    "Belterra": {
-      "apl_id": "Urucum-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.36225
-    },
-    "Curuá": {
-      "apl_id": "Urucum-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.35995
-    },
-    "Mojuí dos Campos": {
-      "apl_id": "Urucum-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.98563
-    },
-    "Monte Alegre": {
-      "apl_id": "Urucum-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.36074
-    },
-    "Óbidos": {
-      "apl_id": "Urucum-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.36116
-    },
-    "Placas": {
-      "apl_id": "Urucum-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.36756
-    },
-    "Prainha": {
-      "apl_id": "Urucum-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.36102
-    },
-    "Santarém": {
-      "apl_id": "Urucum-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.96532
-    },
-    "Total": {
-      "apl_id": "Urucum-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 5.03534
-    },
-    "Ananindeua": {
-      "apl_id": "Urucum-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.88046
-    },
-    "Belém": {
-      "apl_id": "Urucum-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.88096
-    },
-    "Benevides": {
-      "apl_id": "Urucum-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.83734
-    },
-    "Castanhal": {
-      "apl_id": "Urucum-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 10.95106
-    },
-    "Inhangapi": {
-      "apl_id": "Urucum-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.83487
-    },
-    "Santa Izabel do Pará": {
-      "apl_id": "Urucum-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.82734
-    },
-    "Abaetetuba": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.96368
-    },
-    "Augusto Corrêa": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.88137
-    },
-    "Bragança": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87797
-    },
-    "Curuçá": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87966
-    },
-    "Igarapé-Miri": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.88307
-    },
-    "Maracanã": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87974
-    },
-    "Moju": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.88618
-    },
-    "Santa Maria do Pará": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.0475
-    },
-    "São Caetano de Odivelas": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.88165
-    },
-    "São Domingos do Capim": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87833
-    },
-    "São Francisco do Pará": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.88396
-    },
-    "São Miguel do Guamá": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.87816
-    },
-    "Terra Alta": {
-      "apl_id": "Urucum-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.8795
-    },
-    "Breu Branco": {
-      "apl_id": "Urucum-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.11196
-    },
-    "Dom Eliseu": {
-      "apl_id": "Urucum-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.11123
-    },
-    "Marabá": {
-      "apl_id": "Urucum-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.82419
-    },
-    "Paragominas": {
-      "apl_id": "Urucum-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.75783
-    },
-    "Parauapebas": {
-      "apl_id": "Urucum-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.72121
-    },
-    "Pau D'Arco": {
-      "apl_id": "Urucum-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.97334
-    },
-    "Redenção": {
-      "apl_id": "Urucum-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.68806
-    },
-    "Rio Maria": {
-      "apl_id": "Urucum-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.60651
-    },
-    "Tucuruí": {
-      "apl_id": "Urucum-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.43394
-    },
-    "Ulianópolis": {
-      "apl_id": "Urucum-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.11155
-    },
-    "Altamira": {
+    "Vitória do Xingu": {
       "apl_id": "Urucum-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
-      "idri": 0.03948
-    },
-    "Anapu": {
-      "apl_id": "Urucum-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.03873
-    },
-    "Aveiro": {
-      "apl_id": "Urucum-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.0414
-    },
-    "Pacajá": {
-      "apl_id": "Urucum-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.03834
-    },
-    "Rurópolis": {
-      "apl_id": "Urucum-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.0477
+      "idri": 0.0369
     },
     "Uruará": {
       "apl_id": "Urucum-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
       "idri": 0.03995
     },
-    "Vitória do Xingu": {
+    "Ulianópolis": {
+      "apl_id": "Urucum-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.11155
+    },
+    "Tucuruí": {
+      "apl_id": "Urucum-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.43394
+    },
+    "Terra Alta": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.8795
+    },
+    "São Miguel do Guamá": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87816
+    },
+    "São Francisco do Pará": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88396
+    },
+    "São Domingos do Capim": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87833
+    },
+    "São Caetano de Odivelas": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88165
+    },
+    "Santarém": {
+      "apl_id": "Urucum-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.96532
+    },
+    "Santa Maria do Pará": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.0475
+    },
+    "Santa Izabel do Pará": {
+      "apl_id": "Urucum-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.82734
+    },
+    "Rurópolis": {
       "apl_id": "Urucum-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
-      "idri": 0.0369
+      "idri": 0.0477
+    },
+    "Rio Maria": {
+      "apl_id": "Urucum-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.60651
+    },
+    "Redenção": {
+      "apl_id": "Urucum-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.68806
+    },
+    "Prainha": {
+      "apl_id": "Urucum-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36102
+    },
+    "Placas": {
+      "apl_id": "Urucum-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36756
+    },
+    "Pau D'Arco": {
+      "apl_id": "Urucum-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.97334
+    },
+    "Parauapebas": {
+      "apl_id": "Urucum-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.72121
+    },
+    "Paragominas": {
+      "apl_id": "Urucum-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.75783
+    },
+    "Pacajá": {
+      "apl_id": "Urucum-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.03834
+    },
+    "Óbidos": {
+      "apl_id": "Urucum-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36116
+    },
+    "Monte Alegre": {
+      "apl_id": "Urucum-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36074
+    },
+    "Mojuí dos Campos": {
+      "apl_id": "Urucum-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.98563
+    },
+    "Moju": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88618
+    },
+    "Maracanã": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87974
+    },
+    "Marabá": {
+      "apl_id": "Urucum-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.82419
+    },
+    "Inhangapi": {
+      "apl_id": "Urucum-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.83487
+    },
+    "Igarapé-Miri": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88307
+    },
+    "Dom Eliseu": {
+      "apl_id": "Urucum-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.11123
+    },
+    "Curuçá": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87966
+    },
+    "Curuá": {
+      "apl_id": "Urucum-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.35995
+    },
+    "Castanhal": {
+      "apl_id": "Urucum-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 10.95106
+    },
+    "Breu Branco": {
+      "apl_id": "Urucum-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.11196
+    },
+    "Bragança": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.87797
+    },
+    "Benevides": {
+      "apl_id": "Urucum-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.83734
+    },
+    "Belterra": {
+      "apl_id": "Urucum-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36225
+    },
+    "Belém": {
+      "apl_id": "Urucum-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.88096
+    },
+    "Aveiro": {
+      "apl_id": "Urucum-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.0414
+    },
+    "Augusto Corrêa": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.88137
+    },
+    "Anapu": {
+      "apl_id": "Urucum-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.03873
+    },
+    "Ananindeua": {
+      "apl_id": "Urucum-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.88046
+    },
+    "Altamira": {
+      "apl_id": "Urucum-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.03948
+    },
+    "Abaetetuba": {
+      "apl_id": "Urucum-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.96368
     }
   }
 }

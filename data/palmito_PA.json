@@ -20,8 +20,7 @@
         "Ponta de Pedras",
         "Portel",
         "Santa Cruz do Arari",
-        "São Sebastião da Boa Vista",
-        "Total"
+        "São Sebastião da Boa Vista"
       ],
       "cor": "#ffffcc"
     },
@@ -33,7 +32,6 @@
         "Anapu",
         "Itaituba",
         "Pacajá",
-        "Total",
         "Trairão"
       ],
       "cor": "#fed976"
@@ -44,8 +42,7 @@
       "idri_medio": 0.65276,
       "municipios": [
         "Itupiranga",
-        "Marabá",
-        "Total"
+        "Marabá"
       ],
       "cor": "#fd8d3c"
     },
@@ -63,8 +60,7 @@
         "Moju",
         "Oeiras do Pará",
         "Santa Maria do Pará",
-        "São Domingos do Capim",
-        "Total"
+        "São Domingos do Capim"
       ],
       "cor": "#e31a1c"
     },
@@ -75,182 +71,176 @@
       "municipios": [
         "Barcarena",
         "Belém",
-        "Castanhal",
-        "Total"
+        "Castanhal"
       ],
       "cor": "#800026"
     }
   ],
   "municipios": {
-    "Afuá": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 1.50729
-    },
-    "Anajás": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.76167
-    },
-    "Bagre": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.085
-    },
-    "Breves": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 1.15554
-    },
-    "Cachoeira do Arari": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.34215
-    },
-    "Chaves": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.34639
-    },
-    "Curralinho": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.93745
-    },
-    "Gurupá": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.08452
-    },
-    "Melgaço": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.08504
-    },
-    "Muaná": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 1.14094
-    },
-    "Ponta de Pedras": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.34355
-    },
-    "Portel": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.08581
-    },
-    "Santa Cruz do Arari": {
-      "apl_id": "Palmito-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.34235
+    "Trairão": {
+      "apl_id": "Palmito-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.17474
     },
     "São Sebastião da Boa Vista": {
       "apl_id": "Palmito-Marajó-PA",
       "apl_label": "Marajó",
       "idri": 0.79061
     },
-    "Total": {
-      "apl_id": "Palmito-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 1.86799
-    },
-    "Barcarena": {
-      "apl_id": "Palmito-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 2.04496
-    },
-    "Belém": {
-      "apl_id": "Palmito-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 1.90909
-    },
-    "Castanhal": {
-      "apl_id": "Palmito-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 1.64991
-    },
-    "Abaetetuba": {
+    "São Domingos do Capim": {
       "apl_id": "Palmito-NordesteParaense-PA",
       "apl_label": "Nordeste Paraense",
-      "idri": 1.72529
-    },
-    "Acará": {
-      "apl_id": "Palmito-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.61447
-    },
-    "Cametá": {
-      "apl_id": "Palmito-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.27299
-    },
-    "Igarapé-Açu": {
-      "apl_id": "Palmito-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.52966
-    },
-    "Igarapé-Miri": {
-      "apl_id": "Palmito-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.1881
-    },
-    "Limoeiro do Ajuru": {
-      "apl_id": "Palmito-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.55867
-    },
-    "Moju": {
-      "apl_id": "Palmito-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.6225
-    },
-    "Oeiras do Pará": {
-      "apl_id": "Palmito-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.37451
+      "idri": 0.91152
     },
     "Santa Maria do Pará": {
       "apl_id": "Palmito-NordesteParaense-PA",
       "apl_label": "Nordeste Paraense",
       "idri": 0.61318
     },
-    "São Domingos do Capim": {
-      "apl_id": "Palmito-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.91152
+    "Santa Cruz do Arari": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.34235
     },
-    "Itupiranga": {
-      "apl_id": "Palmito-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.07077
+    "Portel": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.08581
     },
-    "Marabá": {
-      "apl_id": "Palmito-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.23475
-    },
-    "Anapu": {
-      "apl_id": "Palmito-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.13067
-    },
-    "Itaituba": {
-      "apl_id": "Palmito-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 1.09089
+    "Ponta de Pedras": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.34355
     },
     "Pacajá": {
       "apl_id": "Palmito-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
       "idri": 0.15779
     },
-    "Trairão": {
+    "Oeiras do Pará": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.37451
+    },
+    "Muaná": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.14094
+    },
+    "Moju": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.6225
+    },
+    "Melgaço": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.08504
+    },
+    "Marabá": {
+      "apl_id": "Palmito-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.23475
+    },
+    "Limoeiro do Ajuru": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.55867
+    },
+    "Itupiranga": {
+      "apl_id": "Palmito-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.07077
+    },
+    "Itaituba": {
       "apl_id": "Palmito-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
-      "idri": 1.17474
+      "idri": 1.09089
+    },
+    "Igarapé-Miri": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.1881
+    },
+    "Igarapé-Açu": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.52966
+    },
+    "Gurupá": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.08452
+    },
+    "Curralinho": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.93745
+    },
+    "Chaves": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.34639
+    },
+    "Castanhal": {
+      "apl_id": "Palmito-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.64991
+    },
+    "Cametá": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.27299
+    },
+    "Cachoeira do Arari": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.34215
+    },
+    "Breves": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.15554
+    },
+    "Belém": {
+      "apl_id": "Palmito-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.90909
+    },
+    "Barcarena": {
+      "apl_id": "Palmito-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 2.04496
+    },
+    "Bagre": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.085
+    },
+    "Anapu": {
+      "apl_id": "Palmito-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.13067
+    },
+    "Anajás": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.76167
+    },
+    "Afuá": {
+      "apl_id": "Palmito-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.50729
+    },
+    "Acará": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.61447
+    },
+    "Abaetetuba": {
+      "apl_id": "Palmito-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.72529
     }
   }
 }

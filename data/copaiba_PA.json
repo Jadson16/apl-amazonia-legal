@@ -17,7 +17,6 @@
         "Novo Progresso",
         "Pacajá",
         "Senador José Porfírio",
-        "Total",
         "Uruará",
         "Vitória do Xingu"
       ],
@@ -29,8 +28,7 @@
       "idri_medio": 1.01403,
       "municipios": [
         "Curralinho",
-        "Salvaterra",
-        "Total"
+        "Salvaterra"
       ],
       "cor": "#fee186"
     },
@@ -48,7 +46,6 @@
         "Oriximiná",
         "Santarém",
         "Terra Santa",
-        "Total",
         "Óbidos"
       ],
       "cor": "#fdaa48"
@@ -61,7 +58,6 @@
         "Paragominas",
         "São Domingos do Araguaia",
         "São Félix do Xingu",
-        "Total",
         "Tucuruí"
       ],
       "cor": "#fc5a2d"
@@ -77,8 +73,7 @@
         "Castanhal",
         "Santa Bárbara do Pará",
         "Santa Izabel do Pará",
-        "Santo Antônio do Tauá",
-        "Total"
+        "Santo Antônio do Tauá"
       ],
       "cor": "#d30f20"
     },
@@ -95,237 +90,231 @@
         "Oeiras do Pará",
         "São João de Pirabas",
         "Tailândia",
-        "Tomé-Açu",
-        "Total"
+        "Tomé-Açu"
       ],
       "cor": "#800026"
     }
   ],
   "municipios": {
-    "Alenquer": {
-      "apl_id": "Copaíba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16363
-    },
-    "Belterra": {
-      "apl_id": "Copaíba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16809
-    },
-    "Curuá": {
-      "apl_id": "Copaíba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16365
-    },
-    "Faro": {
-      "apl_id": "Copaíba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16276
-    },
-    "Juruti": {
-      "apl_id": "Copaíba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.1636
-    },
-    "Monte Alegre": {
-      "apl_id": "Copaíba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16347
-    },
-    "Óbidos": {
-      "apl_id": "Copaíba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16357
-    },
-    "Oriximiná": {
-      "apl_id": "Copaíba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16824
-    },
-    "Santarém": {
-      "apl_id": "Copaíba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 2.20471
-    },
-    "Terra Santa": {
-      "apl_id": "Copaíba-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.16267
-    },
-    "Total": {
-      "apl_id": "Copaíba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 8.00085
-    },
-    "Curralinho": {
-      "apl_id": "Copaíba-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.02784
-    },
-    "Salvaterra": {
-      "apl_id": "Copaíba-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 2.00022
-    },
-    "Ananindeua": {
-      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 2.32178
-    },
-    "Belém": {
-      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.09196
-    },
-    "Benevides": {
-      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 1.24665
-    },
-    "Castanhal": {
-      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 2.63245
-    },
-    "Santa Bárbara do Pará": {
-      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 1.87918
-    },
-    "Santa Izabel do Pará": {
-      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 1.09212
-    },
-    "Santo Antônio do Tauá": {
-      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 4.1699
-    },
-    "Acará": {
-      "apl_id": "Copaíba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.70891
-    },
-    "Concórdia do Pará": {
-      "apl_id": "Copaíba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.67602
-    },
-    "Garrafão do Norte": {
-      "apl_id": "Copaíba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.59794
-    },
-    "Igarapé-Açu": {
-      "apl_id": "Copaíba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.68889
-    },
-    "Moju": {
-      "apl_id": "Copaíba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 6.19374
-    },
-    "Oeiras do Pará": {
-      "apl_id": "Copaíba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.60013
-    },
-    "São João de Pirabas": {
-      "apl_id": "Copaíba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 5.64918
-    },
-    "Tailândia": {
-      "apl_id": "Copaíba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 17.951
-    },
-    "Tomé-Açu": {
-      "apl_id": "Copaíba-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 13.94188
-    },
-    "Paragominas": {
-      "apl_id": "Copaíba-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 2.41208
-    },
-    "São Domingos do Araguaia": {
-      "apl_id": "Copaíba-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.71897
-    },
-    "São Félix do Xingu": {
-      "apl_id": "Copaíba-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.21699
-    },
-    "Tucuruí": {
-      "apl_id": "Copaíba-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.217
-    },
-    "Altamira": {
+    "Vitória do Xingu": {
       "apl_id": "Copaíba-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
-      "idri": 1.26072
-    },
-    "Anapu": {
-      "apl_id": "Copaíba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.42962
-    },
-    "Aveiro": {
-      "apl_id": "Copaíba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.31962
-    },
-    "Brasil Novo": {
-      "apl_id": "Copaíba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.41543
-    },
-    "Itaituba": {
-      "apl_id": "Copaíba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.30823
-    },
-    "Jacareacanga": {
-      "apl_id": "Copaíba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.30694
-    },
-    "Medicilândia": {
-      "apl_id": "Copaíba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.40021
-    },
-    "Novo Progresso": {
-      "apl_id": "Copaíba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 1.09537
-    },
-    "Pacajá": {
-      "apl_id": "Copaíba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.40837
-    },
-    "Senador José Porfírio": {
-      "apl_id": "Copaíba-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.42997
+      "idri": 0.43842
     },
     "Uruará": {
       "apl_id": "Copaíba-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
       "idri": 0.4201
     },
-    "Vitória do Xingu": {
+    "Tucuruí": {
+      "apl_id": "Copaíba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.217
+    },
+    "Tomé-Açu": {
+      "apl_id": "Copaíba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 13.94188
+    },
+    "Terra Santa": {
+      "apl_id": "Copaíba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16267
+    },
+    "Tailândia": {
+      "apl_id": "Copaíba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 17.951
+    },
+    "Senador José Porfírio": {
       "apl_id": "Copaíba-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
-      "idri": 0.43842
+      "idri": 0.42997
+    },
+    "São João de Pirabas": {
+      "apl_id": "Copaíba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.64918
+    },
+    "São Félix do Xingu": {
+      "apl_id": "Copaíba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.21699
+    },
+    "São Domingos do Araguaia": {
+      "apl_id": "Copaíba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.71897
+    },
+    "Santo Antônio do Tauá": {
+      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 4.1699
+    },
+    "Santarém": {
+      "apl_id": "Copaíba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.20471
+    },
+    "Santa Izabel do Pará": {
+      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.09212
+    },
+    "Santa Bárbara do Pará": {
+      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.87918
+    },
+    "Salvaterra": {
+      "apl_id": "Copaíba-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 2.00022
+    },
+    "Paragominas": {
+      "apl_id": "Copaíba-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 2.41208
+    },
+    "Pacajá": {
+      "apl_id": "Copaíba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.40837
+    },
+    "Oriximiná": {
+      "apl_id": "Copaíba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16824
+    },
+    "Oeiras do Pará": {
+      "apl_id": "Copaíba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.60013
+    },
+    "Óbidos": {
+      "apl_id": "Copaíba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16357
+    },
+    "Novo Progresso": {
+      "apl_id": "Copaíba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.09537
+    },
+    "Monte Alegre": {
+      "apl_id": "Copaíba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16347
+    },
+    "Moju": {
+      "apl_id": "Copaíba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 6.19374
+    },
+    "Medicilândia": {
+      "apl_id": "Copaíba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.40021
+    },
+    "Juruti": {
+      "apl_id": "Copaíba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.1636
+    },
+    "Jacareacanga": {
+      "apl_id": "Copaíba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.30694
+    },
+    "Itaituba": {
+      "apl_id": "Copaíba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.30823
+    },
+    "Igarapé-Açu": {
+      "apl_id": "Copaíba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.68889
+    },
+    "Garrafão do Norte": {
+      "apl_id": "Copaíba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.59794
+    },
+    "Faro": {
+      "apl_id": "Copaíba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16276
+    },
+    "Curuá": {
+      "apl_id": "Copaíba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16365
+    },
+    "Curralinho": {
+      "apl_id": "Copaíba-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.02784
+    },
+    "Concórdia do Pará": {
+      "apl_id": "Copaíba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.67602
+    },
+    "Castanhal": {
+      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 2.63245
+    },
+    "Brasil Novo": {
+      "apl_id": "Copaíba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.41543
+    },
+    "Benevides": {
+      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 1.24665
+    },
+    "Belterra": {
+      "apl_id": "Copaíba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16809
+    },
+    "Belém": {
+      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.09196
+    },
+    "Aveiro": {
+      "apl_id": "Copaíba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.31962
+    },
+    "Anapu": {
+      "apl_id": "Copaíba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.42962
+    },
+    "Ananindeua": {
+      "apl_id": "Copaíba-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 2.32178
+    },
+    "Altamira": {
+      "apl_id": "Copaíba-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.26072
+    },
+    "Alenquer": {
+      "apl_id": "Copaíba-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.16363
+    },
+    "Acará": {
+      "apl_id": "Copaíba-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 5.70891
     }
   }
 }

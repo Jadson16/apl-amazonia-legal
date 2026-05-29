@@ -14,7 +14,6 @@
         "Novo Progresso",
         "Pacajá",
         "Senador José Porfírio",
-        "Total",
         "Uruará"
       ],
       "cor": "#ffffcc"
@@ -26,8 +25,7 @@
       "municipios": [
         "Anajás",
         "Breves",
-        "Cachoeira do Arari",
-        "Total"
+        "Cachoeira do Arari"
       ],
       "cor": "#fee186"
     },
@@ -47,7 +45,6 @@
         "Parauapebas",
         "São Domingos do Araguaia",
         "São Félix do Xingu",
-        "Total",
         "Tucuruí",
         "Xinguara"
       ],
@@ -66,7 +63,6 @@
         "Monte Alegre",
         "Oriximiná",
         "Santarém",
-        "Total",
         "Óbidos"
       ],
       "cor": "#fc5a2d"
@@ -88,8 +84,7 @@
         "Mãe do Rio",
         "Santa Maria do Pará",
         "São Francisco do Pará",
-        "Tomé-Açu",
-        "Total"
+        "Tomé-Açu"
       ],
       "cor": "#d30f20"
     },
@@ -106,159 +101,118 @@
         "Marituba",
         "Santa Bárbara do Pará",
         "Santa Izabel do Pará",
-        "Santo Antônio do Tauá",
-        "Total"
+        "Santo Antônio do Tauá"
       ],
       "cor": "#800026"
     }
   ],
   "municipios": {
-    "Alenquer": {
-      "apl_id": "Cumaru-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.38493
+    "Xinguara": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.91785
     },
-    "Belterra": {
-      "apl_id": "Cumaru-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.36405
+    "Uruará": {
+      "apl_id": "Cumaru-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.12213
     },
-    "Curuá": {
-      "apl_id": "Cumaru-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.3654
+    "Tucuruí": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.6789
     },
-    "Juruti": {
-      "apl_id": "Cumaru-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.48405
+    "Tomé-Açu": {
+      "apl_id": "Cumaru-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 20.50266
     },
-    "Mojuí dos Campos": {
-      "apl_id": "Cumaru-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.27945
+    "Senador José Porfírio": {
+      "apl_id": "Cumaru-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.14998
     },
-    "Monte Alegre": {
-      "apl_id": "Cumaru-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 0.36157
+    "São Francisco do Pará": {
+      "apl_id": "Cumaru-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.06019
     },
-    "Óbidos": {
-      "apl_id": "Cumaru-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 2.62083
+    "São Félix do Xingu": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.41417
     },
-    "Oriximiná": {
-      "apl_id": "Cumaru-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.97148
-    },
-    "Santarém": {
-      "apl_id": "Cumaru-BaixoAmazonas-PA",
-      "apl_label": "Baixo Amazonas",
-      "idri": 1.3606
-    },
-    "Total": {
-      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 6.56839
-    },
-    "Anajás": {
-      "apl_id": "Cumaru-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.90957
-    },
-    "Breves": {
-      "apl_id": "Cumaru-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 0.62354
-    },
-    "Cachoeira do Arari": {
-      "apl_id": "Cumaru-Marajó-PA",
-      "apl_label": "Marajó",
-      "idri": 1.18089
-    },
-    "Ananindeua": {
-      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 24.43875
-    },
-    "Belém": {
-      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.50777
-    },
-    "Benevides": {
-      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.55529
-    },
-    "Castanhal": {
-      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 9.54433
-    },
-    "Inhangapi": {
-      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.59979
-    },
-    "Marituba": {
-      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.51663
-    },
-    "Santa Bárbara do Pará": {
-      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.78477
-    },
-    "Santa Izabel do Pará": {
-      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
-      "apl_label": "Metropolitana de Belém",
-      "idri": 3.70849
+    "São Domingos do Araguaia": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.49346
     },
     "Santo Antônio do Tauá": {
       "apl_id": "Cumaru-MetropolitanadeBelém-PA",
       "apl_label": "Metropolitana de Belém",
       "idri": 3.45969
     },
-    "Abaetetuba": {
-      "apl_id": "Cumaru-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.78521
+    "Santarém": {
+      "apl_id": "Cumaru-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.3606
     },
-    "Acará": {
-      "apl_id": "Cumaru-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.97609
-    },
-    "Cametá": {
+    "Santa Maria do Pará": {
       "apl_id": "Cumaru-NordesteParaense-PA",
       "apl_label": "Nordeste Paraense",
       "idri": 0.85994
     },
-    "Capitão Poço": {
-      "apl_id": "Cumaru-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.17636
+    "Santa Izabel do Pará": {
+      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.70849
     },
-    "Concórdia do Pará": {
-      "apl_id": "Cumaru-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.85994
+    "Santa Bárbara do Pará": {
+      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.78477
     },
-    "Curuçá": {
-      "apl_id": "Cumaru-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.46895
+    "Parauapebas": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.2216
     },
-    "Igarapé-Miri": {
-      "apl_id": "Cumaru-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 2.25016
+    "Paragominas": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.17045
     },
-    "Mãe do Rio": {
+    "Pacajá": {
+      "apl_id": "Cumaru-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.21331
+    },
+    "Oriximiná": {
+      "apl_id": "Cumaru-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.97148
+    },
+    "Óbidos": {
+      "apl_id": "Cumaru-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 2.62083
+    },
+    "Novo Progresso": {
+      "apl_id": "Cumaru-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 1.69313
+    },
+    "Monte Alegre": {
+      "apl_id": "Cumaru-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36157
+    },
+    "Mojuí dos Campos": {
+      "apl_id": "Cumaru-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 1.27945
+    },
+    "Moju": {
       "apl_id": "Cumaru-NordesteParaense-PA",
       "apl_label": "Nordeste Paraense",
       "idri": 0.85994
@@ -268,130 +222,165 @@
       "apl_label": "Nordeste Paraense",
       "idri": 7.78993
     },
-    "Moju": {
-      "apl_id": "Cumaru-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.85994
+    "Medicilândia": {
+      "apl_id": "Cumaru-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.12213
     },
-    "Santa Maria do Pará": {
-      "apl_id": "Cumaru-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 0.85994
-    },
-    "São Francisco do Pará": {
-      "apl_id": "Cumaru-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 1.06019
-    },
-    "Tomé-Açu": {
-      "apl_id": "Cumaru-NordesteParaense-PA",
-      "apl_label": "Nordeste Paraense",
-      "idri": 20.50266
-    },
-    "Canaã dos Carajás": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.24604
-    },
-    "Curionópolis": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.8278
-    },
-    "Dom Eliseu": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.11722
-    },
-    "Eldorado do Carajás": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.85483
-    },
-    "Floresta do Araguaia": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.68875
-    },
-    "Itupiranga": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.21459
+    "Marituba": {
+      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.51663
     },
     "Marabá": {
       "apl_id": "Cumaru-SudesteParaense-PA",
       "apl_label": "Sudeste Paraense",
       "idri": 1.00051
     },
-    "Paragominas": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.17045
+    "Mãe do Rio": {
+      "apl_id": "Cumaru-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.85994
     },
-    "Parauapebas": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.2216
-    },
-    "São Domingos do Araguaia": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.49346
-    },
-    "São Félix do Xingu": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 1.41417
-    },
-    "Tucuruí": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.6789
-    },
-    "Xinguara": {
-      "apl_id": "Cumaru-SudesteParaense-PA",
-      "apl_label": "Sudeste Paraense",
-      "idri": 0.91785
-    },
-    "Altamira": {
-      "apl_id": "Cumaru-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.96278
-    },
-    "Anapu": {
-      "apl_id": "Cumaru-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.12645
+    "Juruti": {
+      "apl_id": "Cumaru-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.48405
     },
     "Jacareacanga": {
       "apl_id": "Cumaru-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
       "idri": 0.72752
     },
-    "Medicilândia": {
-      "apl_id": "Cumaru-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.12213
+    "Itupiranga": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.21459
     },
-    "Novo Progresso": {
-      "apl_id": "Cumaru-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 1.69313
+    "Inhangapi": {
+      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.59979
     },
-    "Pacajá": {
-      "apl_id": "Cumaru-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.21331
+    "Igarapé-Miri": {
+      "apl_id": "Cumaru-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 2.25016
     },
-    "Senador José Porfírio": {
-      "apl_id": "Cumaru-SudoesteParaense-PA",
-      "apl_label": "Sudoeste Paraense",
-      "idri": 0.14998
+    "Floresta do Araguaia": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.68875
     },
-    "Uruará": {
+    "Eldorado do Carajás": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.85483
+    },
+    "Dom Eliseu": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.11722
+    },
+    "Curuçá": {
+      "apl_id": "Cumaru-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.46895
+    },
+    "Curuá": {
+      "apl_id": "Cumaru-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.3654
+    },
+    "Curionópolis": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 0.8278
+    },
+    "Concórdia do Pará": {
+      "apl_id": "Cumaru-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.85994
+    },
+    "Castanhal": {
+      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 9.54433
+    },
+    "Capitão Poço": {
+      "apl_id": "Cumaru-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.17636
+    },
+    "Canaã dos Carajás": {
+      "apl_id": "Cumaru-SudesteParaense-PA",
+      "apl_label": "Sudeste Paraense",
+      "idri": 1.24604
+    },
+    "Cametá": {
+      "apl_id": "Cumaru-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.85994
+    },
+    "Cachoeira do Arari": {
+      "apl_id": "Cumaru-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 1.18089
+    },
+    "Breves": {
+      "apl_id": "Cumaru-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.62354
+    },
+    "Benevides": {
+      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.55529
+    },
+    "Belterra": {
+      "apl_id": "Cumaru-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.36405
+    },
+    "Belém": {
+      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 3.50777
+    },
+    "Anapu": {
       "apl_id": "Cumaru-SudoesteParaense-PA",
       "apl_label": "Sudoeste Paraense",
-      "idri": 0.12213
+      "idri": 0.12645
+    },
+    "Ananindeua": {
+      "apl_id": "Cumaru-MetropolitanadeBelém-PA",
+      "apl_label": "Metropolitana de Belém",
+      "idri": 24.43875
+    },
+    "Anajás": {
+      "apl_id": "Cumaru-Marajó-PA",
+      "apl_label": "Marajó",
+      "idri": 0.90957
+    },
+    "Altamira": {
+      "apl_id": "Cumaru-SudoesteParaense-PA",
+      "apl_label": "Sudoeste Paraense",
+      "idri": 0.96278
+    },
+    "Alenquer": {
+      "apl_id": "Cumaru-BaixoAmazonas-PA",
+      "apl_label": "Baixo Amazonas",
+      "idri": 0.38493
+    },
+    "Acará": {
+      "apl_id": "Cumaru-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 0.97609
+    },
+    "Abaetetuba": {
+      "apl_id": "Cumaru-NordesteParaense-PA",
+      "apl_label": "Nordeste Paraense",
+      "idri": 1.78521
     }
   }
 }
