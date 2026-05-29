@@ -322,12 +322,12 @@ function renderMap() {
   geojsonLayer = L.geoJSON(currentGeo, {
     style: feature => {
       const info = aplMap[norm(feature.properties.nome)];
-      if (!info) return { fillColor: '#c8c8c8', fillOpacity: 0.3, color: '#bbb', weight: 0.4 };
+      if (!info) return { fillColor: '#c8c8c8', fillOpacity: 0.3, color: '#c8c8c8', weight: 0 };
       return {
         fillColor: info.cor,
         fillOpacity: fillOpacity(info.idri),
-        color: '#111',
-        weight: 0.6,
+        color: info.cor,
+        weight: 0,
       };
     },
     onEachFeature: (feature, layer) => {
@@ -374,7 +374,7 @@ function renderMap() {
   });
 
   aplContourLayer = L.geoJSON(turf.featureCollection(contornos), {
-    style: { fillOpacity: 0, color: '#111', weight: 1.8, dashArray: null },
+    style: { fillOpacity: 0, color: '#111', weight: 0, dashArray: null },
     interactive: false,
   }).addTo(map);
 
