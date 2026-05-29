@@ -73,9 +73,9 @@
     .panel-scroll { flex: 1; overflow-y: auto; }
 
     /* ── Legenda APL ── */
-    .legend-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 16px; cursor: pointer; transition: background .15s; border-radius: 0; }
+    .legend-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 16px; cursor: pointer; transition: background .15s; border-left: 3px solid transparent; }
     .legend-item:hover { background: var(--varzea); }
-    .legend-item.active { background: var(--varzea); }
+    .legend-item.active { background: var(--varzea); border-left-color: var(--mata); }
     .legend-dot { width: 14px; height: 14px; border-radius: 3px; flex-shrink: 0; margin-top: 2px; border: 1px solid rgba(0,0,0,.12); }
     .legend-text { flex: 1; }
     .legend-name { font-size: 12px; font-weight: 600; color: var(--floresta); line-height: 1.2; }
@@ -83,6 +83,21 @@
     .legend-count { font-size: 10px; color: var(--buriti); }
     .legend-cinza { display: flex; align-items: center; gap: 10px; padding: 8px 16px; }
     .legend-cinza .legend-text { font-size: 11px; color: #888; }
+
+    /* ── Tabela de municípios do APL selecionado ── */
+    #apl-table-wrap { border-top: 1px solid var(--border); display: none; }
+    #apl-table-header { padding: 10px 16px 6px; display: flex; justify-content: space-between; align-items: center; }
+    #apl-table-title { font-family: var(--font-mono); font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--igapo); }
+    #apl-table-close { font-size: 14px; color: var(--buriti); cursor: pointer; line-height: 1; background: none; border: none; padding: 0; }
+    #apl-table-close:hover { color: var(--floresta); }
+    #apl-table-scroll { max-height: 220px; overflow-y: auto; }
+    table.mun-table { width: 100%; border-collapse: collapse; font-size: 11px; }
+    table.mun-table th { font-family: var(--font-mono); font-size: 8px; letter-spacing: .5px; text-transform: uppercase; color: var(--igapo); padding: 5px 16px; border-bottom: 1px solid var(--border); background: var(--bg); text-align: left; position: sticky; top: 0; }
+    table.mun-table th:last-child { text-align: right; }
+    table.mun-table td { padding: 5px 16px; border-bottom: .5px solid var(--border); color: #333; }
+    table.mun-table td:last-child { text-align: right; font-family: var(--font-mono); font-size: 10px; color: var(--igapo); }
+    table.mun-table tr:last-child td { border-bottom: none; }
+    table.mun-table tr:hover td { background: var(--varzea); }
 
     /* ── Tooltip municipio ── */
     #tooltip-box {
@@ -233,6 +248,19 @@
       <div class="legend-dot" style="background:#c8c8c8;"></div>
       <div class="legend-text">Fora do APL selecionado</div>
     </div>
+    <!-- Tabela de municípios do APL selecionado -->
+    <div id="apl-table-wrap">
+      <div id="apl-table-header">
+        <span id="apl-table-title">Municípios</span>
+        <button id="apl-table-close" title="Fechar">✕</button>
+      </div>
+      <div id="apl-table-scroll">
+        <table class="mun-table">
+          <thead><tr><th>Município</th><th>IDRI</th></tr></thead>
+          <tbody id="apl-table-body"></tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -247,6 +275,8 @@
 let map, geojsonLayer;
 let currentData = null;
 let currentGeo = null;
+let selectedApl = null;   // label do APL selecionado na legenda
+let currentAplMap = {};   // cache do aplMap para uso no highlight
 
 const BASE = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
   ? '.'
@@ -311,12 +341,14 @@ function renderMap() {
   if (aplContourLayer) { map.removeLayer(aplContourLayer); aplContourLayer = null; }
 
   // Mapa APL: nome_municipio → {apl_label, cor, idri}
+  selectedApl = null;
   const aplMap = {};
   const aplCores = {};
   currentData.apls.forEach(a => { aplCores[a.label] = a.cor; });
   Object.entries(currentData.municipios).forEach(([mun, info]) => {
     aplMap[norm(mun)] = { ...info, cor: aplCores[info.apl_label] || '#aaa' };
   });
+  currentAplMap = aplMap;
 
   // Camada coroplética — bordas internas finas
   geojsonLayer = L.geoJSON(currentGeo, {
@@ -425,6 +457,8 @@ function updatePanel() {
   [...d.apls].sort((a, b) => b.idri_medio - a.idri_medio).forEach(apl => {
     const item = document.createElement('div');
     item.className = 'legend-item';
+    item.dataset.apl = apl.label;
+    item.title = 'Clique para destacar no mapa';
     item.innerHTML = `
       <div class="legend-dot" style="background:${apl.cor};"></div>
       <div class="legend-text">
@@ -433,9 +467,82 @@ function updatePanel() {
         <div class="legend-count">${apl.municipios.length} municípios</div>
       </div>
     `;
+    item.addEventListener('click', () => selectApl(apl.label, apl));
     list.appendChild(item);
   });
 }
+
+// ── Highlight APL ──────────────────────────────────────────────────────────────
+function darkenHex(hex, amount = 40) {
+  const n = parseInt(hex.replace('#',''), 16);
+  const r = Math.max(0, (n >> 16) - amount);
+  const g = Math.max(0, ((n >> 8) & 0xff) - amount);
+  const b = Math.max(0, (n & 0xff) - amount);
+  return '#' + [r,g,b].map(x => x.toString(16).padStart(2,'0')).join('');
+}
+
+function highlightApl(label) {
+  if (!geojsonLayer) return;
+  geojsonLayer.eachLayer(layer => {
+    const info = currentAplMap[norm(layer.feature.properties.nome)];
+    if (!info) {
+      layer.setStyle({ fillOpacity: 0.1 });
+    } else if (info.apl_label === label) {
+      const dark = darkenHex(info.cor, 40);
+      layer.setStyle({ fillColor: dark, fillOpacity: 0.92 });
+    } else {
+      layer.setStyle({ fillOpacity: 0.15 });
+    }
+  });
+}
+
+function clearHighlight() {
+  if (!geojsonLayer) return;
+  geojsonLayer.eachLayer(layer => {
+    const info = currentAplMap[norm(layer.feature.properties.nome)];
+    if (!info) {
+      layer.setStyle({ fillColor: '#c8c8c8', fillOpacity: 0.3 });
+    } else {
+      layer.setStyle({ fillColor: info.cor, fillOpacity: fillOpacity(info.idri) });
+    }
+  });
+}
+
+function selectApl(label, apl) {
+  const wrap = document.getElementById('apl-table-wrap');
+  // Desseleciona se clicar no mesmo
+  if (selectedApl === label) {
+    selectedApl = null;
+    clearHighlight();
+    wrap.style.display = 'none';
+    document.querySelectorAll('.legend-item').forEach(el => el.classList.remove('active'));
+    return;
+  }
+  selectedApl = label;
+  highlightApl(label);
+
+  // Legenda — marca o ativo
+  document.querySelectorAll('.legend-item').forEach(el => el.classList.remove('active'));
+  document.querySelector(`.legend-item[data-apl="${CSS.escape(label)}"]`)?.classList.add('active');
+
+  // Tabela
+  document.getElementById('apl-table-title').textContent = label;
+  const tbody = document.getElementById('apl-table-body');
+  const muns = Object.entries(currentData.municipios)
+    .filter(([, v]) => v.apl_label === label)
+    .sort((a, b) => b[1].idri - a[1].idri);
+  tbody.innerHTML = muns.map(([nome, v]) =>
+    `<tr><td>${nome}</td><td>${v.idri.toFixed(4)}</td></tr>`
+  ).join('');
+  wrap.style.display = 'block';
+}
+
+document.getElementById('apl-table-close').addEventListener('click', () => {
+  selectedApl = null;
+  clearHighlight();
+  document.getElementById('apl-table-wrap').style.display = 'none';
+  document.querySelectorAll('.legend-item').forEach(el => el.classList.remove('active'));
+});
 
 function clearPanel() {
   ['stat-muns','stat-apls','stat-idri','stat-cobert'].forEach(id => {
