@@ -350,14 +350,23 @@ function renderMap() {
   });
   currentAplMap = aplMap;
 
+  // Gradiente padrão: normaliza IDRI médio dos APLs entre si
+  const idrisMedios = currentData.apls.map(a => a.idri_medio);
+  const minApl = Math.min(...idrisMedios);
+  const maxApl = Math.max(...idrisMedios);
+  const rangeApl = maxApl - minApl || 1;
+  const aplT = {};  // label → t (0..1)
+  currentData.apls.forEach(a => { aplT[a.label] = (a.idri_medio - minApl) / rangeApl; });
+
   // Camada coroplética — bordas internas finas
   geojsonLayer = L.geoJSON(currentGeo, {
     style: feature => {
       const info = aplMap[norm(feature.properties.nome)];
       if (!info) return { fillColor: '#c8c8c8', fillOpacity: 0.3, color: '#c8c8c8', weight: 0 };
+      const t = aplT[info.apl_label] ?? 0.5;
       return {
-        fillColor: info.cor,
-        fillOpacity: fillOpacity(info.idri),
+        fillColor: lerpColor(info.cor, t),
+        fillOpacity: 0.88,
         color: info.cor,
         weight: 0,
       };
